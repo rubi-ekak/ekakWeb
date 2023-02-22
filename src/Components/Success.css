@@ -1,0 +1,39 @@
+.success_story{
+   background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    padding: 0 7rem 3rem!important;
+}
+.text-section{
+    color:#0d6667;
+}
+.horizontle-line{
+     height: 2rem;
+    color:#094d4e;
+}
+.accordion-color{
+    
+    background-color: #f0f0f0;
+}
+
+#flush-headingOne{
+    display: flex;
+    justify-items: end;
+}
+.accordion-button {
+    color:#0d6667;
+    background-color:0;
+    display: flex;
+    justify-items: end;
+}
+.container1{
+     
+        margin-bottom: 2rem;
+        border-bottom: 2px solid #13989b;
+    
+}

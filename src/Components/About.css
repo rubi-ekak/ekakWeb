@@ -1,0 +1,50 @@
+.about_us{
+    background-color: #afdcdf;
+}
+.contain{
+    padding: 3rem 7rem;
+    
+}
+.box{
+    height:auto;
+    display: flex;
+    align-items: center;
+}
+.card-title{
+    padding:1.325rem 1rem;
+    color:#0d6667;
+}
+
+.card-text{
+    font-size: 22px;
+    color:#0d6667;
+    /* font-family: "gilroy-regular",sans-serif!important; */
+    margin-bottom: 0!important;
+    text-align: justify;
+    padding: 1.25rem 2rem;
+}
+.heading{
+    padding-top: 48px;
+    padding-bottom: 48px;
+    color:#0d6667
+}
+.rowele{
+    flex-wrap: nowrap;
+}
+/* .success_story{
+ background-color:  #f0f0f0;
+} */
+.accordion-color{
+    background-color:  #f0f0f0;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.paragraph{
+    font-size: 20px;
+}
+.div1{
+    width: 100%;
+}

@@ -1,0 +1,27 @@
+.navbar{
+    background-image: linear-gradient(to bottom right,#0d6667,#034c63);
+height: 4.5rem;
+}
+.navbar .colourchange{
+    background-color: transparent;
+    height: 4.5rem;
+}
+.nav-link{
+    color: #fff;
+    padding: 0px 16px;
+}
+.nav-link:hover{
+    color:#0d6667 ;
+
+}
+.logo{
+    width: 220px;
+    height: auto;
+}
+.cont{
+    padding: 0 7rem;
+}
+.nav-item{
+    font-size:17px;
+    padding:0px 16px;
+}
