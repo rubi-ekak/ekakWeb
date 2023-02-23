@@ -1,0 +1,19 @@
+.heading_sustability{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 7rem;
+
+}
+.sustability_container{
+    padding: 0 7rem 3rem;
+   margin-top: 8px;
+
+}
+.mt{
+  margin:16px 0px;
+}
+.sustability{
+    background-color: #f0f0f0;
+}

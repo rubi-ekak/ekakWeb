@@ -5,10 +5,10 @@ const About = () => {
   return (
     <>
       <div className="about_us box">
-        <div className="container-fluid">
+        <div className="container-fluid contain">
           <div
             className="card about_us d-flex justify-content-center align-items-center"
-            style={{ "max-width": "100%" }}
+            
           >
             <div className="row mt-4">
               <div className="col-md-8 pl-4 pr-4 ">

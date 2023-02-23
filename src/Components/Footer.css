@@ -1,0 +1,36 @@
+.footer{
+    color: #fff;;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-section{
+  background-image: linear-gradient(to bottom right,#0d6667,#034c63);;
+}
+.socialicon{
+    color: blanchedalmond!important;
+    height:1.5rem;
+    width:1.5rem;
+}
+.svg-inline--fa{
+  height:2rem;
+  margin: 0;
+}
+.links{
+    display: flex;
+    /* align-items:flex-start; */
+    /* justify-content:start; */
+    flex-direction: column;
+    align-content: center;
+}
+.secfooter{
+    padding: 2rem 1rem;
+}
+.ekak{
+    width: 200px;
+    height: auto;
+}
