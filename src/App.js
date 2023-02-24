@@ -6,6 +6,7 @@ import './App.css';
 import About from "./Components/About";
 import Achievment from "./Components/Achievment";
 import Carousal from "./Components/Carousal";
+import Cleanenergy from "./Components/Cleanenergy/Cleanenergy";
 import Footer from "./Components/Footer";
 import Impact from "./Components/Impact";
 import Innovation from "./Components/Innovation";
@@ -20,8 +21,8 @@ function App() {
 
   return (
     <div >
-      <Navbar/>
-      <Carousal/>
+     {/* <Navbar/>
+    <Carousal/>
     <About/>
    <Success/>
    <Solution/>
@@ -31,6 +32,8 @@ function App() {
   <Achievment/>
   <Partener/>
   <Footer/>
+   */}
+   <Cleanenergy/>
     </div>
   );
 }
