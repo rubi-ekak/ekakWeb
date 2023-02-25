@@ -5,18 +5,18 @@ const Offer = () => {
   return (
     <section>
       <div className="offer-section">
-        <div className="container-fluid cardcontent">
+        <div className="container-fluid cardcontent offer-box">
           <div className="d-flex justify-content-center align-items-center heading ">
             <h1>SUITE OF OFFERINGS</h1>
           </div>
-          <div className="row">
+          <div className="row row-cols-2 ">
             <div className="col-lg-6 col-12">
               <div className="d-flex align-item-center justify-content-center p-1">
                 <h3>Sabi Lamp</h3>
               </div>
               <img
                 src="https://ekak.in/assets/images/sblmp.png"
-                className="img-fluid"
+                className="img-fluid pic1"
               ></img>
 
               <div className="text-box">
@@ -28,13 +28,13 @@ const Offer = () => {
                 </ul>
               </div>
             </div>
-            <div className="col-lg-6 col-12  ">
+            <div className="col-lg-6 col-12 ">
               <div className="d-flex align-item-center justify-content-center p-1">
                 <h3>Solar power bank</h3>
               </div>
               <img
                 src="https://ekak.in/assets/images/Screenshot%20(558)%20-%20Copy%20-%20Copy%20-%20Copy.png"
-                className="img-fluid"
+                className="img-fluid pic2"
               ></img>
 
               <div className="text-box">
@@ -52,7 +52,7 @@ const Offer = () => {
               </div>
               <img
                 src="https://ekak.in/assets/images/1639726776136_-_Copy.png"
-                className="img-fluid"
+                className="img-fluid pic2"
               ></img>
 
               <div className="text-box">
@@ -70,7 +70,7 @@ const Offer = () => {
               </div>
               <img
                 src="https://ekak.in/assets/images/maxresdefault%20(1).jpg"
-                className="img-fluid"
+                className="img-fluid pic1"
               ></img>
 
               <div className="text-box">

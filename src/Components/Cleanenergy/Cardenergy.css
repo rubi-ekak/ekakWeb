@@ -3,7 +3,17 @@
 }
 .txt{
     width: 60%;
+   
 }
 .cardenergy{
     background-color: #afdcdf;
+}
+.row1{
+    color:#0d6667 ;
+}
+.offer-paragraph{
+    color:#0d6667;
+    
+    text-align: justify;
+    font-size: 19px;
 }

@@ -33,17 +33,17 @@ const Navbar = () => {
                 <ul class="navbar-nav">
                   <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="#">
-                      Home
+                    Clean Energy
                     </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">
-                      Features
+                     Mobility
                     </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">
-                      Pricing
+                      Ekakshar
                     </a>
                   </li>
                 </ul>

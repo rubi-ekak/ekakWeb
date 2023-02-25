@@ -1,0 +1,44 @@
+.ekasharimage {
+  width:58rem;
+  height: auto;
+}
+.ekakshar{
+    /* margin-top: 4.5rem; */
+    background-color: #000
+}
+.context{
+    position: absolute;
+    top: 15rem;
+    left: 10rem;
+    width: 80%;
+    color: #ffffff;
+}
+.ekak-sub-heading{
+    padding:16px;
+    margin-bottom: 8px;
+    color: #fff;
+    text-shadow: 1px 1px 2px #0d6667;
+    font-family: "gilroy-bold",sans-serif!important;
+    font-size: 1.575rem;
+    padding: 1rem;
+}
+.orderbutton{
+    margin: 16px;
+    padding: 8px;
+    background-color: #0D6667;
+    color: #ffffff;
+    border-radius:0.5rem;
+}
+.orderbutton:hover{
+    transform: scale(1.08);
+    border: 3px solid white;
+   
+
+}
+.ekak-sub-heading1{
+    color: #fff;
+    text-shadow: 1px 2px 2px var(--primary-color);
+    font-family: "gilroy-bold",sans-serif!important;
+    font-size: 3rem;
+    padding: 1rem;
+}

@@ -16,7 +16,7 @@ const Action = () => {
           <div className="col-lg-6 col-12 actiondiv">
             <a>
               <button className="btn buttonbt">
-                <h3>REQUEST ORDER</h3>
+                <h3>COLLABORATE WITH US</h3>
               </button>
             </a>
           </div>

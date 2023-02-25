@@ -7,9 +7,12 @@ import About from "./Components/About";
 import Achievment from "./Components/Achievment";
 import Carousal from "./Components/Carousal";
 import Clean from "./Components/Cleanenergy/Clean";
+import data from "./Data.json"
+import Ekaksharsuite from "./Components/Ekakshar/Ekaksharsuite";
 import Footer from "./Components/Footer";
 import Impact from "./Components/Impact";
 import Innovation from "./Components/Innovation";
+import Mobility from "./Components/Mobilityekak/Mobility";
 import Navbar from "./Components/Navbar";
 import Partener from "./Components/Partener";
 import Solution from "./Components/Solution";
@@ -21,6 +24,7 @@ function App() {
 
   return (
     <div >
+      <Navbar/>
      {/* <Navbar/>
     <Carousal/>
     <About/>
@@ -33,7 +37,9 @@ function App() {
   <Partener/>
   <Footer/>
    */}
-   <Clean/>
+   {/* <Clean/> */}
+   {/* <Mobility/> */}
+    <Ekaksharsuite data={data}/>
     </div>
   );
 }

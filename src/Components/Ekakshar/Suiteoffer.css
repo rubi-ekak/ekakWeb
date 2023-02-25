@@ -1,0 +1,30 @@
+.suite-4{
+    padding-left: 32px;
+    padding-right: 12px;
+}
+.suite-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0 2rem;
+}
+.suite-sub-heading{
+  color:#0d6667;
+
+}
+.suite-container{
+    padding: 0 7rem 3rem!important;
+}
+.headsolar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.775rem;
+    color:#0d6667 ;
+
+}
+
+.suite-offer{
+    background-color: #f0f0f0;
+}
