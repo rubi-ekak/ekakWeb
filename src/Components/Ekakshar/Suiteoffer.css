@@ -1,6 +1,6 @@
 .suite-4{
-    padding-left: 32px;
-    padding-right: 12px;
+    padding-left: 32px!important;
+    padding-right: 12px !important;
 }
 .suite-heading{
     display: flex;
