@@ -6,7 +6,7 @@ import './App.css';
 import About from "./Components/About";
 import Achievment from "./Components/Achievment";
 import Carousal from "./Components/Carousal";
-import Cleanenergy from "./Components/Cleanenergy/Cleanenergy";
+import Clean from "./Components/Cleanenergy/Clean";
 import Footer from "./Components/Footer";
 import Impact from "./Components/Impact";
 import Innovation from "./Components/Innovation";
@@ -33,7 +33,7 @@ function App() {
   <Partener/>
   <Footer/>
    */}
-   <Cleanenergy/>
+   <Clean/>
     </div>
   );
 }

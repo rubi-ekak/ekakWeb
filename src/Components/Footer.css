@@ -9,7 +9,8 @@
     justify-content: center;
 }
 .footer-section{
-  background-image: linear-gradient(to bottom right,#0d6667,#034c63);;
+  background-image: linear-gradient(to bottom right,#0d6667,#034c63);
+  color: #fff;
 }
 .socialicon{
     color: blanchedalmond!important;
@@ -17,8 +18,8 @@
     width:1.5rem;
 }
 .svg-inline--fa{
-  height:2rem;
-  margin: 0;
+  height:2rem !important;
+  margin: 0 !important;
 }
 .links{
     display: flex;
@@ -33,4 +34,26 @@
 .ekak{
     width: 200px;
     height: auto;
+}
+.social-media {
+    display: flex;
+    flex-direction: column;
+    
+}
+span{
+    text-align: center;
+    
+}
+.copy{
+    font-size:  5px !important;;
+}
+.footer--{
+    color: #fff;;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content:left;
 }
