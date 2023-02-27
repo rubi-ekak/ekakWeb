@@ -1,0 +1,24 @@
+.Carousel_image{
+    height: 90vh;
+    position: relative;
+    filter:brightness(0.5)
+}
+.caption_container{
+    /* background-color: black; */
+  position: absolute;
+  top: 120px;
+  text-align:left;
+  color: #ffffff;
+ 
+  
+}
+.small_heading{
+    padding: 0px 0px 8px;
+}
+.middle_heading{
+    margin:  0px 0px 8px;
+    padding: 16px 0px;
+}
+.card{
+    border:0px;
+}

@@ -1,23 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.css";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
+  const [navshow, setNavshow]= useState(false)
 
-  
+  const navbaarshow=()=>{
+    if(window.scrollY>=100){
+      setNavshow(true)
+    }
+    else{
+      setNavshow(false)
+    }
+  }
+ window.addEventListener('scroll',navbaarshow )
+
   return (
-    <div>
-      <div className="row">
-        <div className="col-12">
-          <nav class="navbar navbar-expand-lg">
+    <>
+      {/* <div className="row">
+        <div className="col-12"> */}
+          <nav class={navshow?"navbar navbar-expand-lg navbar-light fixed-top active":"navbar navbar-expand-lg navbar-light fixed-top"}>
             <div class="container-fluid cont">
-              <a class="navbar-brand" href="#">
-                <img
-                className='logo'
-                  src="/logo192.png"
-                  alt="Bootstrap"
-                
-                />
-              </a>
+              <NavLink to="/" class="navbar-brand"> <img className="logo" src="/logo192.png" alt="Bootstrap" /></NavLink>
+             
               <button
                 class="navbar-toggler"
                 type="button"
@@ -29,30 +34,36 @@ const Navbar = () => {
               >
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <div
+                class="collapse navbar-collapse justify-content-end"
+                id="navbarNav"
+              >
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">
-                    Clean Energy
-                    </a>
+                    <NavLink to="/cleanenergy" className="nalink">
+                      
+                      Clean Energy
+                    </NavLink>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">
-                     Mobility
-                    </a>
+                    <NavLink to="/Mobility" className="nalink">
+                     
+                      Mobility
+                    </NavLink>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <NavLink to="/Ekakshar" className="nalink">
+                      
                       Ekakshar
-                    </a>
+                    </NavLink>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
-        </div>
-      </div>
-    </div>
+        {/* </div>
+      </div> */}
+    </>
   );
 };
 

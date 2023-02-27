@@ -1,5 +1,5 @@
 import React from 'react'
-import Action from '../Cleanenergy/Action'
+import Action from '../Ekakmain/Action'
 import Ekaksharmain from './Ekaksharmain'
 import Suiteoffer from './Suiteoffer'
 
@@ -8,7 +8,7 @@ const Ekaksharsuite = ({data}) => {
     <div>
       <Ekaksharmain/>
       <Suiteoffer data={data}/>
-      <Action/>
+     
     </div>
   )
 }

@@ -1,45 +1,38 @@
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import "../node_modules/bootstrap/dist/js/bootstrap.min.js"
-
-
 import './App.css';
-import About from "./Components/About";
-import Achievment from "./Components/Achievment";
-import Carousal from "./Components/Carousal";
 import Clean from "./Components/Cleanenergy/Clean";
 import data from "./Data.json"
 import Ekaksharsuite from "./Components/Ekakshar/Ekaksharsuite";
 import Footer from "./Components/Footer";
-import Impact from "./Components/Impact";
-import Innovation from "./Components/Innovation";
 import Mobility from "./Components/Mobilityekak/Mobility";
 import Navbar from "./Components/Navbar";
-import Partener from "./Components/Partener";
-import Solution from "./Components/Solution";
-import Success from "./Components/Success";
-import Sustability from "./Components/Sustability";
+import Action from "./Components/Ekakmain/Action";
+import Home from "./Components/Ekakmain/Home";
+import {BrowserRouter,Routes,Route} from "react-router-dom"
+import Contact from "./Components/Ekakmain/Contact";
 
 function App() {
   
 
   return (
     <div >
+      <BrowserRouter>
       <Navbar/>
-     {/* <Navbar/>
-    <Carousal/>
-    <About/>
-   <Success/>
-   <Solution/>
-  <Sustability/> 
-  <Innovation/> 
-   <Impact/>
-  <Achievment/>
-  <Partener/>
-  <Footer/>
-   */}
-   {/* <Clean/> */}
-   {/* <Mobility/> */}
-    <Ekaksharsuite data={data}/>
+      <Contact/>
+     <Routes>
+        <Route path="/" element={<Home/>}></Route>
+        <Route path="/cleanenergy" element={<Clean/>}></Route>
+        <Route path="/Mobility" element={<Mobility/>}></Route>
+        <Route path="/Ekakshar" element={ <Ekaksharsuite data={data}/>}></Route>
+    
+      
+    
+    
+     </Routes>
+     <Action/>
+     <Footer/>
+     </BrowserRouter>
     </div>
   );
 }

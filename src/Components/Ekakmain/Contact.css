@@ -1,0 +1,20 @@
+.btn-launch{
+
+    color:#fff;
+    font-weight: 700;
+    background-color: #0d6667;
+    border-radius: 1.5rem;
+    width: 2rem;
+    padding: 10px 2px;
+    writing-mode: vertical-rl;
+    position: fixed;
+    top: 20rem;
+    right: 16px;
+    z-index: 1111;
+
+}
+span{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
