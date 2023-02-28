@@ -1,12 +1,12 @@
 .Carousel_image{
-    height: 90vh;
+    height:95vh;
     position: relative;
     filter:brightness(0.5)
 }
 .caption_container{
     /* background-color: black; */
   position: absolute;
-  top: 120px;
+  top: 180px;
   text-align:left;
   color: #ffffff;
  
