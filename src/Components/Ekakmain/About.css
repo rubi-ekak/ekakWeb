@@ -13,15 +13,17 @@
 .card-title{
     padding:1.325rem 1rem;
     color:#0d6667;
+    font-family: "Bold",sans-serif!important;
+    font-size: 48px;
 }
 
 .card-text{
-    font-size: 22px;
+    font-size: 28px;
     color:#0d6667;
-    /* font-family: "gilroy-regular",sans-serif!important; */
+    font-family: "Regular",sans-serif!important;
     margin-bottom: 0!important;
     text-align: justify;
-    padding: 1.25rem 2rem;
+    padding: 1.25rem 4rem;
 }
 .heading{
     padding-top: 48px;
@@ -31,9 +33,7 @@
 .rowele{
     flex-wrap: nowrap;
 }
-/* .success_story{
- background-color:  #f0f0f0;
-} */
+
 .accordion-color{
     background-color:  #f0f0f0;
 }

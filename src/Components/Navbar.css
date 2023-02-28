@@ -1,6 +1,6 @@
 .navbar.active{
     background-image: linear-gradient(to bottom right,#0d6667,#034c63);
-height: 4.5rem;
+height: 5.5rem;
 }
 /* .navbar{
     background-color: transparent;
@@ -10,31 +10,22 @@ height: 4.5rem;
     position: fixed;
     right: 0;
     left: 0;
-    height: 4.5rem;
+    height: 5.5rem;
     z-index: 1030;
+   
+    
 }
-/* .navbar .colourchange{
-    background-color: transparent;
-    height: 4.5rem;
-} */
-/* .active{
-    color: #fff;
-    padding: 0px 16px;
-    text-decoration: none;
-}
-.active:hover{
-    color:#0d6667 ;
 
-} */
 .logo{
-    width: 220px;
+    width: 280px;
     height: auto;
 }
 .cont{
-    padding: 0 7rem;
+    padding: 0 9rem;
 }
 .nav-item{
-    font-size:17px;
+    font-size:20px;
+    font-family:"Regular",sans-serif;
     padding:0px 16px;
 }
 a{

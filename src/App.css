@@ -1,39 +1,29 @@
-.App {
-  text-align: center;
-}
 
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@font-face {
+    font-family: "Light";   /*Can be any text*/
+    src: local("gilroy-Light"),
+      url("./Fonts/gilroy/Gilroy-Light.ttf") format("truetype");
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  @font-face {
+    font-family: "Regular";   /*Can be any text*/
+    src: local("gilroy-Regular"),
+      url("./Fonts/gilroy/Gilroy-Regular.ttf") format("truetype");
   }
-  to {
-    transform: rotate(360deg);
+  @font-face {
+    font-family: "Heavy";   /*Can be any text*/
+    src: local("gilroy-Heavy"),
+      url("./Fonts/gilroy/Gilroy-Heavy.ttf") format("truetype");
   }
-}
+  @font-face {
+    font-family: "Bold";   /*Can be any text*/
+    src: local("gilroy-Bold"),
+      url("./Fonts/gilroy/Gilroy-Bold.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Medium";   /*Can be any text*/
+    src: local("gilroy-Medium"),
+      url("./Fonts/gilroy/Gilroy-Medium.ttf") format("truetype");
+  }
+  *{
+      font-family: "Regular",sans-serif;
+  }

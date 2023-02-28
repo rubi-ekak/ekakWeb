@@ -8,7 +8,7 @@ import Innovation from './Innovation'
 import Solution from './Solution'
 import Success from './Success'
 import Sustability from './Sustability'
-import Navbar from '../Navbar'
+
 
 const Home = () => {
   return (

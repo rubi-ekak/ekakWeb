@@ -9,14 +9,19 @@ import Mobility from "./Components/Mobilityekak/Mobility";
 import Navbar from "./Components/Navbar";
 import Action from "./Components/Ekakmain/Action";
 import Home from "./Components/Ekakmain/Home";
-import {BrowserRouter,Routes,Route} from "react-router-dom"
+import {BrowserRouter,Routes,Route} from "react-router-dom";
 import Contact from "./Components/Ekakmain/Contact";
+import "./Fonts/gilroy/Gilroy-Bold.ttf";
+import "./Fonts/gilroy/Gilroy-Heavy.ttf";
+import "./Fonts/gilroy/Gilroy-Light.ttf";
+import "./Fonts/gilroy/Gilroy-Regular.ttf";
+import "./Fonts/gilroy/Gilroy-Medium.ttf";
 
 function App() {
   
 
   return (
-    <div >
+    <>
       <BrowserRouter>
       <Navbar/>
       <Contact/>
@@ -33,7 +38,7 @@ function App() {
      <Action/>
      <Footer/>
      </BrowserRouter>
-    </div>
+    </>
   );
 }
 

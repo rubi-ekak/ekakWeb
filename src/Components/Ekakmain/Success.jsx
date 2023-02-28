@@ -4,8 +4,8 @@ import "./Success.css";
 const Success = () => {
   return (
     <section className="success_story">
-      <div className="d-flex justify-content-center align-items-center heading ">
-        <h1>SUCCESS STORY</h1>
+      <div className="d-flex justify-content-center align-items-center ">
+        <h1 className="heading ">SUCCESS STORY</h1>
       </div>
       <div className="container-fluid content">
         <div className="container1">
