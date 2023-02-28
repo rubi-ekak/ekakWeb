@@ -27,9 +27,9 @@ function App() {
       <Contact/>
      <Routes>
         <Route path="/" element={<Home/>}></Route>
-        {/* <Route path="/cleanenergy" element={<Clean/>}></Route>
+        <Route path="/cleanenergy" element={<Clean/>}></Route>
         <Route path="/Mobility" element={<Mobility/>}></Route>
-        <Route path="/Ekakshar" element={ <Ekaksharsuite data={data}/>}></Route> */}
+        <Route path="/Ekakshar" element={ <Ekaksharsuite data={data}/>}></Route> 
     
       
     
