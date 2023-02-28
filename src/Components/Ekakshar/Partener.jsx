@@ -5,7 +5,7 @@ const Partener = () => {
   return (
     <section className="partner">
       <div className=" heading_sustability ">
-        <h1>PARTNERS</h1> 
+        <h1 className="innoheading">PARTNERS</h1> 
         <h4>Our outstanding partners and supporters.</h4>
       </div>
       <div className="container-fluid content  text-center"> 

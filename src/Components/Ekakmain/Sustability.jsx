@@ -5,8 +5,8 @@ const Suatability = () => {
   return (
     <section className="sustability">
       <div className=" heading_sustability ">
-        <h1>SUSTAINABLE DEVELOPMENT GOALS - OUR CORNERSTONE</h1>
-        <h5>With our suite of products – make a difference</h5>
+        <h1 className="susheading text-center">SUSTAINABLE DEVELOPMENT GOALS - OUR CORNERSTONE</h1>
+        <h5 className="sushead">With our suite of products – make a difference</h5>
       </div>
       <div className="sustability_images container-fluid sustability_container">
        <div className="row">

@@ -17,3 +17,14 @@
 .sustability{
     background-color: #f0f0f0;
 }
+.sushead{
+    font-family: "Medium",sans-serif!important;
+    color:#0d6667 ;
+    margin-bottom: 0!important;
+    text-align: center;
+}
+.susheading{
+   font-family:"Bold",sans-serif;
+   color: #0d6667;
+   font-size: 48px;
+}

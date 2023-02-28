@@ -22,11 +22,11 @@ const Success = () => {
             <div className="col-lg-5 col-md-5 col-12 d-flex sucdiv justify-content-start align-items-center pl-3 pr-3">
               <div className="text-section">
                 <div className="">
-                  <h2>SABI-LAMP</h2>
-                  <h5>TANZANIA</h5>
+                  <h2 className="subh2">SABI-LAMP</h2>
+                  <h5 className="subh5">TANZANIA</h5>
                 </div>
                 <div className="text">
-                  <p>
+                  <p className="succtext">
                     On Lake Victoria, every night about 100,000 boats enter from
                     Kenya, Uganda and Tanzania to fish for Sardines. Each boat
                     carries about 8 to 10 kerosene lanterns fuelled by 3.5
@@ -109,11 +109,11 @@ const Success = () => {
             <div className="col-lg-5 col-md-5 col-12 d-flex  justify-content-start align-items-center sucdiv">
               <div className="text-section">
                 <div className="">
-                  <h2>MLEKO DAIRY</h2>
-                  <h5>INDIA</h5>
+                  <h2 className="subh2">MLEKO DAIRY</h2>
+                  <h5 className="subh5">INDIA</h5>
                 </div>
                 <div className="text">
-                  <p>
+                  <p className="succtext">
                     Mleko dairy was eager to make their own cattle feed with the
                     aim to improve nutrition content and reduce expenses on
                     off-the-shelf feed. Mleko wanted to setup a cattle feed
@@ -133,7 +133,6 @@ const Success = () => {
               </div>
             </div>
           </div>
-
           <div className="accordion accordion-flush">
             <div className="accordion-item ">
               <h2 className="accordion-header text ">

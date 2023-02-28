@@ -9,7 +9,7 @@ const Impact = () => {
   return (
     <section className="impact">
       <div className=" heading_sustability ">
-        <h1>OVERALL IMPACT</h1>
+        <h1 className="innoheading">OVERALL IMPACT</h1>
         <h4>
           Since 2018, the anticipated impact to our end beneficiaries through
           our products include

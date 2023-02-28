@@ -5,7 +5,7 @@ const Achievment = () => {
   return (
     <section className="achievment">
       <div className=" heading_sustability ">
-        <h1>INNOVATIONS</h1>
+        <h1 className="innoheading">AWARDS AND ACHIEVEMENTS</h1>
       </div>
       <div className="container-fluid content">
         <div className="row">

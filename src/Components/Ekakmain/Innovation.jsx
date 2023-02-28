@@ -4,7 +4,7 @@ const Innovation = () => {
   return (
     <section className="innovation-section">
       <div className=" heading_sustability ">
-        <h1>INNOVATIONS</h1>
+        <h1 className="innoheading">INNOVATIONS</h1>
       </div>
       <div className="innovation container-fluid content">
         <div className="row">
