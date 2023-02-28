@@ -10,7 +10,7 @@ const Impact = () => {
     <section className="impact">
       <div className=" heading_sustability ">
         <h1 className="innoheading">OVERALL IMPACT</h1>
-        <h4>
+        <h4 className="imp-sub-head">
           Since 2018, the anticipated impact to our end beneficiaries through
           our products include
         </h4>
@@ -18,7 +18,7 @@ const Impact = () => {
       <div className="container-fluid content">
         <div className="row">
         <div className="col-lg-4 col-md-4 col-sm-12 text-center ">
-        <FontAwesomeIcon icon={faLeaf} className="text-center" />
+       <span className="m-4"><FontAwesomeIcon icon={faLeaf} className="svg-inline--fa fa-leaf" /></span> 
         
             <h4>
             107000+ litres per year
@@ -28,7 +28,7 @@ const Impact = () => {
             </h6>
         </div>
         <div className="col-lg-4 col-md-4 col-sm-12 text-center ">
-        <FontAwesomeIcon icon={faFireFlameCurved}/>
+        <span className="m-4"><FontAwesomeIcon icon={faFireFlameCurved} className="svg-inline--fa fa-leaf"/></span>
         
             <h4>
             118000+ USD per year
@@ -38,7 +38,7 @@ const Impact = () => {
             </h6>
         </div>
         <div className="col-lg-4 col-md-4 col-sm-12 text-center ">
-        <FontAwesomeIcon icon={faMoneyBill1} />
+        <span className="m-4"><FontAwesomeIcon icon={faMoneyBill1} className="svg-inline--fa fa-leaf "/></span>
         
             <h4>
             45360000+ kgs per year

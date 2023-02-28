@@ -1,12 +1,16 @@
-.svg-inline--fa{
-    font-size: xxx-large;
+.svg-inline--fa.fa-leaf{
+    /* width: 4rem; */
     height: 4rem;
-    margin: 1rem;
-    color: #13989b;
+   
 }
 .impact{
     background-color: #f0f0f0;
      color: #13989b;
 
     
+}
+.imp-sub-head{
+    font-size: 28px;
+    font-weight: 800;
+    color: #0d6667;
 }

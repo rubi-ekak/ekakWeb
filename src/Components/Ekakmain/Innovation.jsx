@@ -15,8 +15,8 @@ const Innovation = () => {
                 src="https://ekak.in/assets/images/man-g3602522b8_1920_-_Copy_828x466.jpg"
               ></img>
               <div className="card-body">
-                <h5 className="mt-2">A.R.G.U.S.</h5>
-                <h6 className="mt-2">
+                <h5 className="mt-2 innosubhead1">A.R.G.U.S.</h5>
+                <h6 className="mt-2 innosubhead2">
                   A product to take daily employee attendance
                 </h6>
                 <ul className="unorder-list">
@@ -35,8 +35,8 @@ const Innovation = () => {
                 src="https://ekak.in/assets/images/sabi_hub_828x466_2_50.png"
               ></img>
               <div className="card-body">
-                <h5 className="mt-2">Solar Charging Hub</h5>
-                <h6 className="mt-2">
+                <h5 className="mt-2 innosubhead1">Solar Charging Hub</h5>
+                <h6 className="mt-2 innosubhead2">
                 A renewable energy powered central station
                 </h6>
                 <ul className="unorder-list">
@@ -55,8 +55,8 @@ const Innovation = () => {
                 src="https://ekak.in/assets/images/pf-1_828x466.jpg"
               ></img>
               <div className="card-body">
-                <h5 className="mt-2">Driver Assistance & Vehicle Emergency</h5>
-                <h6 className="mt-2">
+                <h5 className="mt-2 innosubhead1">Driver Assistance & Vehicle Emergency</h5>
+                <h6 className="mt-2 innosubhead2">
                 An edge IoT solution to make roads safer
                 </h6>
                 <ul className="unorder-list">
@@ -75,8 +75,8 @@ const Innovation = () => {
                 src="https://ekak.in/assets/images/cropped-Prajapati_Ekak-2_828x466.jpg"
               ></img>
               <div className="card-body">
-                <h5 className="mt-2">Krishi Ekka Kit</h5>
-                <h6 className="mt-2">
+                <h5 className="mt-2 innosubhead1">Krishi Ekka Kit</h5>
+                <h6 className="mt-2 innosubhead2">
                 
                 Electrification of milling operations
                 </h6>
