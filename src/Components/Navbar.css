@@ -43,3 +43,24 @@ a{
 .active:active{
     color:#0d6667 ;
 }
+/* for Tablet responsive navbaar */
+@media (min-width: 481px) and (max-width: 767px) {
+    .cont{
+        padding: 0 0;
+    }
+    .navbar{
+        padding-top: 0;
+    }
+    
+    .logo{
+        width: 200px;
+        height: auto;
+    }
+    .navbar-toggler{
+        margin-right: 2rem;
+    }
+    .navbar.active{
+        background-image: linear-gradient(to bottom right,#0d6667,#034c63);
+    height:4rem;
+    }
+}

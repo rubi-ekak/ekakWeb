@@ -7,16 +7,16 @@ const Action = () => {
       <div className="container-fluid actioncontent">
         <div className="row g-5">
           <div className="col-lg-6 col-12  actiondiv">
-            <a>
+            <a href="https://forms.gle/yWr4ga1JkacqAGSn6" target="_blank">
               <button className="btn buttonbt">
-                <h3>REQUEST ORDER</h3>
+                <h3 className="actionhead">REQUEST ORDER</h3>
               </button>
             </a>
           </div>
           <div className="col-lg-6 col-12 actiondiv">
-            <a>
+            <a href="https://forms.gle/HxM5imzteycM9hSW9" target="_blank">
               <button className="btn buttonbt">
-                <h3>COLLABORATE WITH US</h3>
+                <h3 className="actionhead">COLLABORATE WITH US</h3>
               </button>
             </a>
           </div>

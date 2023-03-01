@@ -38,3 +38,26 @@
     color:#094d4e ; 
     font-size:1.4rem;
 }
+/* responsive for tablet */
+@media (min-width: 481px) and (max-width: 767px){
+    .innoheading{
+        
+        font-size:32px;
+    }
+    .innosubhead1{
+        
+         font-size:1.2rem;
+    }
+    .innosubhead2{
+       
+        font-size:1rem;
+    }
+    .content{
+        padding: 0 5rem 3rem;
+    }
+    .unorder-list{
+        font-family: "Regular",sans-serif;
+        color:#094d4e ; 
+        font-size:0.9rem;
+    }
+}

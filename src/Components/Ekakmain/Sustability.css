@@ -28,3 +28,23 @@
    color: #0d6667;
    font-size: 48px;
 }
+/* responsive for tablet */
+@media (min-width: 481px) and (max-width: 767px){
+    .heading_sustability{
+       
+        padding: 3rem 4rem;
+    
+    } 
+    .sustability_container{
+        padding: 0 4rem 3rem;
+       margin-top: 6px;
+    
+    }
+    .mt{
+        margin:12px 0px;
+      }
+      .susheading{
+      
+        font-size: 32px;
+     }
+}

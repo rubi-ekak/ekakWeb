@@ -6,6 +6,7 @@ import {
   faTwitter,
   faFacebook,
 } from "@fortawesome/free-brands-svg-icons";
+import {NavLink} from "react-router-dom"
 
 import "./Footer.css";
 import { faCopyright } from "@fortawesome/free-regular-svg-icons";
@@ -15,7 +16,7 @@ const Footer = () => {
     <section className="footer-section">
       <div className="container-fluid  text-center secfooter ">
         <div className="row">
-          <div className="col-lg-4 col-md-4 col-6 d-flex justify-content-center align-items-center ">
+          <div className="col-lg-4 col-md-4 col-6 d-flex justify-content-center align-items-center  ">
             <div className="social-media ">
               <label className="social">
                 <b>FOLLOW US</b>
@@ -24,33 +25,33 @@ const Footer = () => {
 
               <div className="d-flex justify-content-center align-items-center ">
               <ul className='foote_bottom_ul'>
-                <li>
+                <li className="footer--  ">
                  
-                  <a href="" className="footer--">
+                  <a href="https://www.facebook.com/EkakInn/" target="_blank" className="d-flex justify-content-evenly" >
                   <FontAwesomeIcon icon={faFacebook} className="socialicon pr-4" />
-                    Facebook
+                   <span> Facebook</span>
                   </a>
                 </li>
-                <li>
-                  <a href="" className="footer--">
+                <li className="footer--">
+                  <a href="https://twitter.com/ekak1nn" target="_blank"  className="d-flex justify-content-center" >
                   <FontAwesomeIcon
                       icon={faTwitter}
                       className="socialicon"
                       style={{ fontSize: "1px" }}
                     />
-                    Twitter
+                   <span> Twitter</span>
                   </a>
                 </li>
-                <li>
-                  <a href="" className="footer--">
+                <li className="footer--">
+                  <a href="https://medium.com/@EkakInn" target="_blank" className="d-flex justify-content-center"  >
                   <FontAwesomeIcon icon={faMedium} className="socialicon" />
-                    Medium
+                   <span> Medium</span>
                   </a>
                 </li>
-                <li>
-                  <a href="" className="footer--">
+                <li className="footer--">
+                  <a href="https://in.linkedin.com/company/ekakinn" target="_blank" className="d-flex justify-content-center"  >
                   <FontAwesomeIcon icon={faLinkedin} className="socialicon" />
-                    Linkedin
+                   <span> Linkedin</span>
                   </a>
                 </li>
               </ul>
@@ -63,22 +64,22 @@ const Footer = () => {
               <ul className='foote_bottom_ul'>
                 <li>
                  
-                  <a href="" className="footer--">
+                  <a href="https://ekak.in/#/ekak-careers"  target="_blank" className="footer--">
                     Careers
                   </a>
                 </li>
                 <li>
-                  <a href="" className="footer--">
+                  <a href="https://medium.com/@EkakInn"  target="_blank" className="footer--">
                     Blog
                   </a>
                 </li>
                 <li>
-                  <a href="" className="footer--">
+                  <a href="https://ekak.in/#/privacypolicy"  target="_blank" className="footer--">
                     Privacy policy
                   </a>
                 </li>
                 <li>
-                  <a href="" className="footer--">
+                  <a href="" target="_blank" className="footer--">
                     Terms & condition
                   </a>
                 </li>
@@ -87,12 +88,12 @@ const Footer = () => {
           </div>
           <div className="col-lg-4 col-md-4 col-6 d-flex align-items-center justify-content-center ">
             <div className="social-media ">
-              <a href="">
+              <NavLink to="/">
                 <img
                   src="https://ekak.in/assets/images/Ekak-12.png"
                   className="ekak"
                 ></img>
-              </a>
+              </NavLink>
               <span>
                 <FontAwesomeIcon icon={faCopyright} id="copyright" />
                 Copyright Ekak Innovations Private Limited 2021

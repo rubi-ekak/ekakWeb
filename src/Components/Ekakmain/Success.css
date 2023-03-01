@@ -37,8 +37,7 @@
   background-color: #f0f0f0;
 }
 .accordion-button:focus {
-/* background-color: black; */
-  
+
   box-shadow: 0;
 
 }
@@ -65,4 +64,53 @@
 }
 .succtext{
   font-size:25px;
+}
+
+#buttonaccordion{
+  width:12%!important;
+  font-size:1.5rem;
+}
+#buttonaccordion:focus{
+  border-color:#f0f0f0;
+}
+.accordionh5{
+  font-family: "Bold",sans-serif;
+  font-size: 25px;
+}
+.accordion-para{
+  font-family: "Regular",sans-serif;
+  font-size: 22px;
+}
+.accordion-padding{
+  padding-right: 12px;
+  padding-left: 12px;
+}
+@media (min-width: 481px) and (max-width: 767px){
+  .sucdiv{
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .succtext{
+    font-size:20px;
+  }
+  #buttonaccordion{
+    width:12%!important;
+    font-size:1rem;
+  }
+  .heading{
+   
+    font-size: 28px;
+  }
+  .accordionh5{
+  
+    font-size: 15px;
+  }
+  .accordion-para{
+   
+    font-size:18px;
+  }
+  .subh2{
+  
+    font-size:25px;
+  }
 }

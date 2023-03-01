@@ -39,9 +39,9 @@ const Success = () => {
 
           <div className="accordion accordion-flush">
             <div className="accordion-item ">
-              <h2 className="accordion-header text ">
-                <button
-                  className="accordion-button collapsed accordion-color d-flex justify-content-end"
+              <h2 className="accordion-header text d-flex justify-content-end ">
+                <button id="buttonaccordion"
+                  className="accordion-button collapsed accordion-color "
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#flush-collapseOne1"
@@ -59,44 +59,44 @@ const Success = () => {
               >
                 <div className="accordion-body accordion-color">
                   <div className="row">
-                    <div className="col-lg-6 col-md-6 col-sm-12">
-                      <h5>THE SOLUTION</h5>
-                      <p>
+                    <div className="col-lg-6 col-md-6 col-sm-12 accordion-padding">
+                      <h5  className="accordionh5">THE SOLUTION</h5>
+                      <p className="accordion-para">
                         Sabi lamps - a solar powered alternative, with 5W
                         brightness and 10 hours battery backup
                       </p>
                     </div>
-                    <div className="col-lg-6 col-md-6 col-sm-12">
-                      <h5>OUR CUSTOMER</h5>
-                      <p>
+                    <div className="col-lg-6 col-md-6 col-sm-12 accordion-padding">
+                      <h5 className="accordionh5">OUR CUSTOMER</h5>
+                      <p className="accordion-para">
                         Sagar Energy Solutions, a social for profit enterprise
                         based in Mwanza, Tanzania
                       </p>
                     </div>
-                    <div className="col-lg-6 col-md-6 col-sm-12">
-                      <h5>BENIFITS DELIVERED</h5>
-                      <p>
+                    <div className="col-lg-6 col-md-6 col-sm-12 accordion-padding">
+                      <h5 className="accordionh5">BENIFITS DELIVERED</h5>
+                      <p className="accordion-para">
                         USD 45,000 saved per year Clean, green and safer
                         operations
                       </p>
                     </div>
-                    <div className="col-lg-6 col-md-6 col-sm-12">
-                      <h5>GOAL ADDRESSED</h5>
+                    <div className="col-lg-6 col-md-6 col-sm-12 accordion-padding">
+                      <h5 className="accordionh5">GOAL ADDRESSED</h5>
                       <ul
                         type="circle"
                         className="d-flex justify-content-between "
                       >
-                        <li>1 No Poverty</li>
-                        <li className="">7 Affordable & Clean Energy</li>
+                        <li className="accordion-para">1 No Poverty</li>
+                        <li className="accordion-para">7 Affordable & Clean Energy</li>
                       </ul>
                     </div>
-                    <div className="col-lg-6 col-md-6 col-sm-12">
-                      <h5>END BENEFICIARIES</h5>
-                      <p>Camp-owners & Fishermen</p>
+                    <div className="col-lg-6 col-md-6 col-sm-12 accordion-padding">
+                      <h5 className="accordionh5">END BENEFICIARIES</h5>
+                      <p className="accordion-para">Camp-owners & Fishermen</p>
                     </div>
-                    <div className="col-lg-6 col-md-6 col-sm-12">
-                      <h5>CARBON DI-OXIDE OFFSET</h5>
-                      <p>Approx 260,000 kgs per year</p>
+                    <div className="col-lg-6 col-md-6 col-sm-12 accordion-padding">
+                      <h5 className="accordionh5">CARBON DI-OXIDE OFFSET</h5>
+                      <p className="accordion-para">Approx 260,000 kgs per year</p>
                     </div>
                   </div>
                 </div>
@@ -135,8 +135,8 @@ const Success = () => {
           </div>
           <div className="accordion accordion-flush">
             <div className="accordion-item ">
-              <h2 className="accordion-header text ">
-                <button
+              <h2 className="accordion-header text  ">
+                <button id="buttonaccordion"
                   className="accordion-button collapsed accordion-color d-flex justify-content-start"
                   type="button"
                   data-bs-toggle="collapse"
@@ -155,44 +155,44 @@ const Success = () => {
               >
                 <div className="accordion-body accordion-color">
                   <div className="row">
-                    <div className="col-lg-6 col-md-6 col-sm-12">
-                      <h5>THE SOLUTION</h5>
-                      <p>
+                    <div className="col-lg-6 col-md-6 col-sm-12 accordion-padding">
+                      <h5 className="accordionh5">THE SOLUTION</h5>
+                      <p className="accordion-para">
                         3 HP single-phase AC induction motor powered cattle feed
                         half screen grinder
                       </p>
                     </div>
-                    <div className="col-lg-6 col-md-6 col-sm-12">
-                      <h5>OUR CUSTOMER</h5>
-                      <p>
+                    <div className="col-lg-6 col-md-6 col-sm-12 accordion-padding">
+                      <h5 className="accordionh5">OUR CUSTOMER</h5>
+                      <p className="accordion-para">
                         Mleko Dairy – situated in Unnao powered by 5kW Solar PV
                         system and 30HP Biogas-genset
                       </p>
                     </div>
-                    <div className="col-lg-6 col-md-6 col-sm-12">
-                      <h5>BENIFITS DELIVERED</h5>
-                      <p>
+                    <div className="col-lg-6 col-md-6 col-sm-12 accordion-padding">
+                      <h5 className="accordionh5">BENIFITS DELIVERED</h5>
+                      <p className="accordion-para">
                         90 kgs/hour of feed generation USD 6,400 saved per year
                         on feed
                       </p>
                     </div>
-                    <div className="col-lg-6 col-md-6 col-sm-12">
-                      <h5>GOAL ADDRESSED</h5>
+                    <div className="col-lg-6 col-md-6 col-sm-12 accordion-padding">
+                      <h5 className="accordionh5">GOAL ADDRESSED</h5>
                       <ul
                         type="circle"
                         className="d-flex justify-content-between "
                       >
-                        <li>7 Affordable & Clean Energy</li>
-                        <li className="">11 Sustainable Communities</li>
+                        <li className="accordion-para">7 Affordable & Clean Energy</li>
+                        <li className="accordion-para">11 Sustainable Communities</li>
                       </ul>
                     </div>
-                    <div className="col-lg-6 col-md-6 col-sm-12">
-                      <h5>END BENEFICIARIES</h5>
-                      <p>Dairy-owner & Operators</p>
+                    <div className="col-lg-6 col-md-6 col-sm-12 accordion-padding">
+                      <h5 className="accordionh5">END BENEFICIARIES</h5>
+                      <p className="accordion-para">Dairy-owner & Operators</p>
                     </div>
-                    <div className="col-lg-6 col-md-6 col-sm-12">
-                      <h5>CARBON DI-OXIDE OFFSET</h5>
-                      <p>Approx 4,500 kgs per year per system</p>
+                    <div className="col-lg-6 col-md-6 col-sm-12 accordion-padding">
+                      <h5 className="accordionh5">CARBON DI-OXIDE OFFSET</h5>
+                      <p className="accordion-para">Approx 4,500 kgs per year per system</p>
                     </div>
                   </div>
                 </div>

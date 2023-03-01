@@ -25,7 +25,7 @@ const Navbar = () => {
       >
         <div class="container-fluid cont">
           <NavLink to="/" class="navbar-brand">
-            {" "}
+         
             <img className="logo" src="/logo192.png" alt="Bootstrap" />
           </NavLink>
 
@@ -38,7 +38,7 @@ const Navbar = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon icon"></span>
           </button>
           <div
             class="collapse navbar-collapse justify-content-end"

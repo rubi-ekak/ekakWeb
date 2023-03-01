@@ -7,6 +7,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size:  1.5rem !important;
 }
 .footer:hover{
     color:teal;
@@ -77,4 +78,7 @@ span{
 
     width:17px;
     padding-right: 5px
+}
+label{
+    margin-bottom: 2px;
 }

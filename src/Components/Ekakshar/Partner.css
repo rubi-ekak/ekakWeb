@@ -11,17 +11,23 @@
     width: 14rem!important;
 }
 #image4{
-    width: 14rem!important;
+    width: 12rem!important;
 }
 #image5{
-    width: 14rem!important;
+    width: 12rem!important;
 }
 #image6{
-    width: 14rem!important;
+    width: 12rem!important;
 }
 #image7{
-    width: 14rem!important;
+    width: 10rem!important;
 }
 #image8{
-    width: 14rem!important;
+    width: 10rem!important;
+}
+.heading_sustability{
+ color:   #0d6667;
+}
+.partener-Image:hover{
+    transform:scale(1.2);
 }

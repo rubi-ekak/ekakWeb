@@ -2,14 +2,10 @@
     background-color: #afdcdf;
 }
 .contain{
-    padding: 3rem 7rem;
+    padding: 3rem 4rem;
     
 }
-.box{
-    height:90vh;
-    display: flex;
-    align-items: center;
-}
+
 .card-title{
     padding:1.325rem 1rem;
     color:#0d6667;
@@ -47,4 +43,40 @@
 }
 .div1{
     width: 100%;
+}
+/* responsive for tablet */
+@media (min-width: 481px) and (max-width: 767px) {
+    .box{
+      position: relative;
+    }
+    .paragraph{
+        font-size: 12px;
+    }
+    .contain{
+        padding: 2rem 4rem;
+      
+        
+    }
+    .card-text{
+        font-size: 20px;
+        color:#0d6667;
+        font-family: "Regular",sans-serif!important;
+        margin-bottom: 0!important;
+        text-align: justify;
+        padding: 1.25rem 3rem;
+    }
+    .card-title{
+        padding:1rem rem;
+        color:#0d6667;
+        font-family: "Bold",sans-serif!important;
+        font-size: 28px;
+    }
+    .aboutimage{
+       padding-left: 0;
+    }
+    .ms-auto{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
