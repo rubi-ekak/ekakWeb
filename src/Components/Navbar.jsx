@@ -38,7 +38,7 @@ const Navbar = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-          <span class="navbar-toggler-icon icon"></span>
+          <span class="navbar-toggler-icon icon nav-togg"></span>
           </button>
           <div
             class="collapse navbar-collapse justify-content-end"

@@ -2,9 +2,6 @@
     background-image: linear-gradient(to bottom right,#0d6667,#034c63);
 height: 5.5rem;
 }
-/* .navbar{
-    background-color: transparent;
-} */
 
 .fixed-top{
     position: fixed;
@@ -15,6 +12,12 @@ height: 5.5rem;
    
     
 }
+.navbar .navbar-toggler:focus{
+    color:transparent;
+    }
+    .navbar .navbar-toggler span{
+        color: white;
+    }
 
 .logo{
     width: 280px;
@@ -62,5 +65,27 @@ a{
     .navbar.active{
         background-image: linear-gradient(to bottom right,#0d6667,#034c63);
     height:4rem;
+    }
+    .collapse .navbar-nav{
+        background-image: linear-gradient(to bottom right,#0d6667,#034c63);
+        height: 5.5rem;
+        width:90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        position: absolute;
+        top: 42px;
+        height: 9rem;
+        font-size: 16px;
+    } 
+    .navbar-collapse{
+        display: flex;
+      justify-content: center;
+      flex-direction: column;
+      
+    }
+    .navbar-nav .nav-item{
+        padding: 12.4px;
     }
 }
