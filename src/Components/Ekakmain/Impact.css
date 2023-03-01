@@ -9,8 +9,38 @@
 
     
 }
+.heading_impact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 7rem;
+}
 .imp-sub-head{
     font-size: 28px;
     font-weight: 800;
     color: #0d6667;
+}
+/* responsive for tablet */
+@media (min-width: 481px) and (max-width: 767px){
+    .svg-inline--fa.fa-leaf{
+        /* width: 4rem; */
+        height: 2rem;
+       
+    }
+    .imp-sub-head{
+        font-size:18px;
+       
+        color: #0d6667;
+      text-align: center;
+       
+    }
+    .heading_impact {
+        
+        padding: 3rem 0rem;
+    }
+    .content{
+        padding: 0;
+    }
+    
 }

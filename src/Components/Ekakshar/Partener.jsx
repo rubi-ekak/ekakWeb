@@ -4,11 +4,11 @@ import "./Partner.css"
 const Partener = () => {
   return (
     <section className="partner">
-      <div className="heading_sustability">
+      <div className="heading_partner">
         <h1 className="innoheading">PARTNERS</h1> 
         <h4>Our outstanding partners and supporters.</h4>
       </div>
-      <div className="container-fluid content  text-center"> 
+      <div className="container-fluid content-partner text-center"> 
           <div className="row">
               <div className="col-lg-4 col-md-4 col-sm-4 col-6 pt-4 partener-Image ">
                   <a href="http://www.qsworldmerit.org/" target="_blank">
@@ -17,8 +17,7 @@ const Partener = () => {
               </div>
               <div className="col-lg-4 col-md-4 col-sm-4 col-6 pt-4 partener-Image ">
                   <a href="https://www.thecleannetwork.org/" target="_blank">
-                      <img src="https://ekak.in/assets/images/clean_logo-new.png" id="image2
-                      "></img>
+                      <img src="https://ekak.in/assets/images/clean_logo-new.png" id="image2"></img>
                   </a>
               </div>
               <div className="col-lg-4 col-md-4 col-sm-4 col-6 pt-3 partener-Image ">

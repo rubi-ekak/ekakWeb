@@ -8,7 +8,7 @@ import {faMoneyBill1} from '@fortawesome/free-solid-svg-icons'
 const Impact = () => {
   return (
     <section className="impact">
-      <div className=" heading_sustability ">
+      <div className=" heading_impact ">
         <h1 className="innoheading">OVERALL IMPACT</h1>
         <h4 className="imp-sub-head">
           Since 2018, the anticipated impact to our end beneficiaries through

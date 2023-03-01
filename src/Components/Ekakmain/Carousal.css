@@ -14,7 +14,7 @@
 }
 .small_heading{
     padding: 0px 0px 8px;
-    font-family: sans-serif,"Regular";
+    font-family:"Regular" ,sans-serif;
     text-shadow: 0px 2px 1px rgb(17 ,17, 17);
 
 }
@@ -29,4 +29,34 @@
 }
 .card{
     border:0px;
+}
+/* responsive for tablet */
+@media (min-width: 481px) and (max-width: 767px){
+    .Carousel_image{
+        height:50vh;
+       
+        filter:brightness(0.5)
+    }
+    .caption_container{
+     
+      top: 80px;
+      
+     
+      
+    }
+    .small_heading{
+        padding: 0px 0px 4px;
+        font-size:20px!important;
+    
+    }
+    .middle_heading{
+        margin:  0px 0px 6px;
+        padding: 8px 0px;
+        font-size:32px!important;
+       
+    
+    }
+    .content{
+        padding: 0!important;
+    }
 }

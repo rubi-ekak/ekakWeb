@@ -86,7 +86,7 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className="col-lg-4 col-md-4 col-6 d-flex align-items-center justify-content-center ">
+          <div className="col-lg-4 col-md-4 col-12 d-flex align-items-center justify-content-center ml-4">
             <div className="social-media ">
               <NavLink to="/">
                 <img
