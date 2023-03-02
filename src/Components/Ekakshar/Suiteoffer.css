@@ -1,6 +1,6 @@
 .suite-4{
-    padding-left: 32px!important;
-    padding-right: 12px !important;
+    padding-left: 12px!important;
+    padding-bottom:2rem!important;
 }
 .suite-heading{
     display: flex;
@@ -8,10 +8,13 @@
     justify-content: center;
     align-items: center;
     padding: 3rem 0 2rem;
+  
+   
 }
 .suite-sub-heading{
   color:#0d6667;
-
+  font-family: "Bold", sans-serif;
+  font-size: 48px;
 }
 .suite-container{
     padding: 0 7rem 3rem!important;
@@ -24,7 +27,29 @@
     color:#0d6667 ;
 
 }
+.offer--head{
+    font-family: "Bold",sans-serif;
+    font-size: 32px;
+}
 
 .suite-offer{
     background-color: #f0f0f0;
+}
+/* responsive for tablet */
+@media (min-width: 481px) and (max-width: 767px){
+    .suite-container{
+        padding: 0 4rem 2rem!important;
+    }
+    .suite-sub-heading{
+      
+        font-size:35px;
+      }
+      .offer--head{
+      
+        font-size:25px;
+    }
+    .suite-4{
+        padding-bottom:2rem!important;
+    }
+    
 }

@@ -5,14 +5,14 @@ const Cleanmobility = () => {
   return (
     <section className="cleanmobility">
       <div className=" heading_cleanmobility ">
-        <h1>CLEAN AND CONNECTED MOBILITY</h1>
+        <h1 className="clean-heading">CLEAN AND CONNECTED MOBILITY</h1>
       </div>
       <div className="container-fluid cleaddiv">
         <div className="row">
-          <div className="col-lg-4 col-md-12 col-12 cleandiv1 p-2">
+          <div className="col-lg-4 col-md-12 col-12 cleandiv1 p-3">
             <div className="txt-1">
               <div className="sub-heading">
-                <h3>SUSTAINABLE CHARGING</h3>
+                <h3 className="clean-sub-heading">SUSTAINABLE CHARGING</h3>
               </div>
               <p className="cleanpara">
                 We are at the precipice of the electric car revolution and the
@@ -25,11 +25,11 @@ const Cleanmobility = () => {
               <img
                 src="https://ekak.in/assets/images/1000x-1_1_548x308.jpg"
                 alt="image"
-                className="img-fluid "
+                className="img-fluid"
               />
             </div>
           </div>
-          <div className="col-lg-4 col-md-12 col-12 cleandiv1 border border-success p-2 border-top-0 border-bottom-0">
+          <div className="col-lg-4 col-md-12 col-12 cleandiv2 borderdiv p-3 ">
             <div className="imagesection">
               <img
                 src="https://ekak.in/assets/images/electric-car-2_548x308.jpg"
@@ -40,7 +40,7 @@ const Cleanmobility = () => {
 
             <div className="txt-1">
               <div className="sub-heading">
-                <h3>ELECTRIC VEHICLES</h3>
+                <h3 className="clean-sub-heading">ELECTRIC VEHICLES</h3>
               </div>
               <p className="cleanpara">
                 Ekak innovations is co-creating custom electric vehicles parts
@@ -50,10 +50,10 @@ const Cleanmobility = () => {
               </p>
             </div>
           </div>
-          <div className="col-lg-4 col-md-12 col-12 cleandiv1 p-2">
+          <div className="col-lg-4 col-md-12 col-12 cleandiv1 p-3">
             <div className="txt-1">
               <div className="sub-heading">
-                <h3>CONNECTED VEHICLES</h3>
+                <h3 className="clean-sub-heading">CONNECTED VEHICLES</h3>
               </div>
               <p className="cleanpara">
                 Ekak Innovations is connecting vehicles and parts of the

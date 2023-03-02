@@ -5,7 +5,9 @@ const RoadSafer = () => {
   return (
     <section>
       <div className="roadsafer">
-        <div className="container-fluid cardcontent">
+        <div className="road-header"><h1 className="road-head">MAKING ROAD SAFER WITH DAVE</h1></div>
+        <div className="container-fluid cardcontent-road">
+
           <div className="row row1">
             <div className="col-xl-6 col-12  ">
               <img
@@ -26,7 +28,7 @@ const RoadSafer = () => {
               </div>
             </div>
           </div>
-          <div className="row row1">
+          <div className="row row2">
             <div className="col-xl-6 col-12 d-flex align-items-center justify-content-center">
               <div className="txt">
                 <h2 className="d-flex justify-content-center align-items-center">

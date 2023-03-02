@@ -11,7 +11,7 @@ const Suiteoffer = ({data}) => {
     <h1 className="suite-sub-heading">SUITE OF OFFERINGS</h1>
      </div>
      <div className="container-fluid suite-container">
-       <div className="row g-5">
+       <div className="row ">
            
            {
                datastock.data.map((ele,index)=>{
@@ -19,7 +19,7 @@ const Suiteoffer = ({data}) => {
                     <div className="col-lg-4 col-12 suite-4">
                     <img src={ele.image} className="img-fluid"></img>
                     <div className="headsolar">
-                        <h3>{ele.Name}</h3>
+                        <h3 className="offer--head">{ele.Name}</h3>
                      
                     </div>
                     </div>

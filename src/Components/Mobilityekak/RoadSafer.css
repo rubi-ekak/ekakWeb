@@ -1,3 +1,39 @@
 .roadsafer{
     background-color: #afdcdf;
 }
+.road-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+    
+}
+.road-head{
+    color: #0d6667;;
+    font-family: "Bold",sans-serif!important;
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+    text-align: center;
+    font-size: 48px;
+
+}
+.cardcontent-road{
+    padding: 0rem 7rem 3rem;
+}
+/* responsive for tablet */
+@media (min-width: 481px) and (max-width: 767px){
+    .road-head{
+       
+        font-size:32px;
+    
+    }
+    .cardcontent-road{
+        padding: 0rem 4rem 2rem;
+    }
+    .road-header{
+    
+        padding: 2rem 0;
+        
+    }
+}
