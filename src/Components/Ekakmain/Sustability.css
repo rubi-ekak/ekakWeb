@@ -29,7 +29,7 @@
    font-size: 48px;
 }
 /* responsive for tablet */
-@media (min-width: 481px) and (max-width: 767px){
+@media (min-width: 481px) and (max-width: 768px){
     .heading_sustability{
        
         padding: 3rem 4rem;
@@ -46,5 +46,33 @@
       .susheading{
       
         font-size: 32px;
+     }
+     
+}
+
+/* responsive for Mobile*/
+@media (min-width:320px) and (max-width:480px){
+   
+    .sustability_container{
+        padding:0 2.8rem 1.755rem;
+       margin-top: 6px;
+    
+    }
+    .heading_sustability{
+       
+        padding: 2rem 2rem;
+    
+    } 
+    .susheading{
+      
+        font-size: 28px;
+     }
+     .sushead{
+         font-size: 18px;
+     }
+     .imgset{
+         margin-top: 12.8px;
+         margin-left:12.8px ;
+         margin-right: 12.8px;
      }
 }

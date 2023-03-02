@@ -23,8 +23,9 @@ const Impact = () => {
             <h4>
             107000+ litres per year
             </h4>
-            <h6>
-            FOSSIL FUEL CONSERVED
+            <h6  className="impact-effect">
+            CARBON DI-OXIDE OFFSET
+          
             </h6>
         </div>
         <div className="col-lg-4 col-md-4 col-sm-12 text-center ">
@@ -33,7 +34,7 @@ const Impact = () => {
             <h4>
             118000+ USD per year
             </h4>
-            <h6>
+            <h6 className="impact-effect">
             FINANCIAL SAVINGS DELIVERED
             </h6>
         </div>
@@ -43,8 +44,8 @@ const Impact = () => {
             <h4>
             45360000+ kgs per year
             </h4>
-            <h6>
-            CARBON DI-OXIDE OFFSET
+            <h6 className="impact-effect">
+            FOSSIL FUEL CONSERVED
             </h6>
         </div>
         </div>

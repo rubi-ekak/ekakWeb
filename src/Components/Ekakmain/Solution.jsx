@@ -5,7 +5,7 @@ const Solution = () => {
   return (
     <section className="solution">
       <div className="d-flex justify-content-center align-items-center heading1 ">
-        <h1 className="heading">THE PROBLEMS WE ADDRESS</h1>
+        <h1 className="heading-solution">THE PROBLEMS WE ADDRESS</h1>
       </div>
         <div className="container-fluid content">
             <div className='row'>

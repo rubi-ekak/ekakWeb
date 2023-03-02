@@ -60,3 +60,31 @@
         padding: 0!important;
     }
 }
+/* responsive for Mobile*/
+@media (min-width:320px) and (max-width:480px){
+    .Carousel_image{
+        height:35vh;
+        width: 100%;
+       
+        filter:brightness(0.5)
+    }
+    .caption_container{
+     
+        top: 55px;
+        
+       
+        
+      }
+      .small_heading{
+        padding: 0px 0px 0px;
+        font-size:14px!important;
+    
+    }
+    .middle_heading{
+        margin:  0px 0px 5px;
+        padding: 2px 0px;
+        font-size:22px!important;
+       
+    
+    }
+}

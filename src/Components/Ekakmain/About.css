@@ -14,7 +14,7 @@
 }
 
 .card-text{
-    font-size: 28px;
+    font-size: 26px;
     color:#0d6667;
     font-family: "Regular",sans-serif!important;
     margin-bottom: 0!important;
@@ -45,7 +45,7 @@
     width: 100%;
 }
 /* responsive for tablet */
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 768px) {
     .box{
       position: relative;
     }
@@ -58,7 +58,7 @@
         
     }
     .card-text{
-        font-size: 20px;
+        font-size: 18px;
         color:#0d6667;
         font-family: "Regular",sans-serif!important;
         margin-bottom: 0!important;
@@ -78,5 +78,32 @@
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .about-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+/* responsive for Mobile*/
+@media (min-width:320px) and (max-width:480px){
+    .paragraph{
+        font-size: 4px;
+    }
+    .contain{
+        padding:1rem 2.8rem;
+      
+        
+    }
+    .card-text{
+        font-size:18px;
+       
+        padding: 1rem 2.4rem;
+    }
+    .card-title{
+        padding:16px;
+        color:#0d6667;
+        font-family: "Bold",sans-serif!important;
+        font-size: 25px;
     }
 }

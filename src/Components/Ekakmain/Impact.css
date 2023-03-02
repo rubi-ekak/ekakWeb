@@ -9,6 +9,11 @@
 
     
 }
+.impact-effect{
+    font-family: "Bold",sans-serif;
+    color:#0d6667 ;
+    font-size: 20px;
+}
 .heading_impact {
     display: flex;
     flex-direction: column;
@@ -22,7 +27,7 @@
     color: #0d6667;
 }
 /* responsive for tablet */
-@media (min-width: 481px) and (max-width: 767px){
+@media (min-width: 481px) and (max-width: 768px){
     .svg-inline--fa.fa-leaf{
         /* width: 4rem; */
         height: 2rem;
@@ -42,5 +47,32 @@
     .content{
         padding: 0;
     }
+    .impact-effect{
+     
+        font-size:17px;
+    }
     
+}
+/* responsive for Mobile*/
+@media (min-width:320px) and (max-width:480px){
+    .imp-sub-head{
+        font-size:15px;
+       
+        color: #0d6667;
+      text-align: center;
+       
+    }
+    .heading_impact {
+        
+        padding: 2rem 0rem 0;
+    }
+    .svg-inline--fa.fa-leaf{
+        /* width: 4rem; */
+        height: 2rem;
+       
+    }
+    .impact-effect{
+       
+        font-size:18px;
+    }
 }

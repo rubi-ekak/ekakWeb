@@ -50,7 +50,7 @@ const Partener = () => {
                       <img src="https://ekak.in/assets/images/Logo-Coalition_1_160x144.png" id="image8"></img>
                   </a>
               </div>
-              <div className="col-lg-4 col-md-4 col-sm-4 col-6 pt-5 partener-Image  ">
+              <div className="col-lg-4 col-md-4 col-sm-4  col-12 pt-5 partener-Image   lastdiv">
                   <a href="http://mleko.in/" target="_blank">
                       <img src="https://ekak.in/assets/images/images.png" id="image9"></img>
                   </a>

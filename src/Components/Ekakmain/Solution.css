@@ -33,3 +33,23 @@
   margin-top: 0 !important;
   margin-bottom: 0 !important;
 }
+/* responsive for Mobile*/
+@media (min-width:320px) and (max-width:480px){
+  .heading-solution{
+    font-family: "Bold",sans-serif;
+  }
+  .heading1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 2rem;
+    color: #094d4e;
+    text-align: center;
+    
+  }
+  .tag {
+  
+    font-size: 20px;
+  }
+}

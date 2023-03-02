@@ -7,7 +7,7 @@ const About = () => {
       <div className="container-fluid contain">
         <div>
           <div className="row">
-            <div className="col-lg-7 col-md-7 col-sm-12">
+            <div className="col-lg-7 col-md-12 col-sm-12 col-12">
               <div className=" text-section">
                 <h1 className="card-title text-center">ABOUT US</h1>
                 <p className="card-text d-flex align-items-start ">
@@ -23,7 +23,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="col-lg-5 col-md-5 col-sm-12 ms-auto">
+            <div className="col-lg-5 col-md-12 col-sm-12 col-12 about-img">
               <img
                 src="https://ekak.in/assets/images/PicsArt_11-17-12.42.52_79_7_70.png"
                 className="img-fluid  aboutimage "

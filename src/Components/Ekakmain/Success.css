@@ -85,13 +85,13 @@
   padding-right: 12px;
   padding-left: 12px;
 }
-@media (min-width: 481px) and (max-width: 767px){
+@media (min-width: 481px) and (max-width: 768px){
   .sucdiv{
     padding-left: 8px;
     padding-right: 8px;
   }
   .succtext{
-    font-size:20px;
+    font-size:14px;
   }
   #buttonaccordion{
     width:30%!important;
@@ -111,6 +111,56 @@
   }
   .subh2{
   
-    font-size:25px;
+    font-size:22px;
+  }
+  .subh5{
+    color: #0d6667;
+    font-family: "Bold",sans-serif!important;
+    font-size:14px!important;
+  }
+}
+/* responsive for Mobile*/
+@media (min-width:320px) and (max-width:480px){
+  .sucdiv{
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  .succtext{
+    font-size:15px;
+  }
+  #buttonaccordion{
+    width:50%!important;
+    font-size:15px;
+  }
+  .heading{
+   
+    font-size: 25px;
+    padding-top:20px;
+    padding-bottom:20px;
+  }
+  .content {
+    padding: 0 3rem 2rem !important;
+  }
+  .accordionh5{
+  
+    font-size:18px;
+    
+  }
+  .accordion-para{
+   
+    font-size:16px;
+  }
+  .subh2{
+  
+    font-size:20px;
+  }
+
+  .subh5{
+    color: #0d6667;
+    font-family: "Bold",sans-serif!important;
+    font-size:15px!important;
+  }
+  .sucdiv{
+  margin-top:10px;
   }
 }

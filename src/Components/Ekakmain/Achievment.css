@@ -2,3 +2,15 @@
     background-color: #afdcdf;
      color: #094d4e;
 }
+
+/* responsive for Mobile*/
+@media (min-width:320px) and (max-width:480px){
+    .content{
+        padding: 2rem 2rem;
+    }
+    .innoheading{
+        font-size:2rem;
+        text-align: center;
+     
+    }
+}
