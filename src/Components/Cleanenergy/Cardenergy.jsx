@@ -25,7 +25,7 @@ const Cardenergy = () => {
               </div>
             </div>
           </div>
-          <div className="row row1">
+          <div className="row row2">
             <div className="col-xl-6 col-12 d-flex align-items-center justify-content-center">
               <div className="txt">
                 <h2 className="d-flex justify-content-center align-items-center">EKAK INNOVATES</h2>

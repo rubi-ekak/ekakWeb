@@ -13,6 +13,7 @@
 }
 .offer-box{
  color:#0d6667  ;
+ font-size: 24.4px;
 }
 .pic1{
   width:624px;
@@ -21,4 +22,32 @@
 .pic2{
     width:624px;
     height: 417px; 
+}
+.offer-head{
+    font-family: "Bold",sans-serif;
+    font-size: 48px;
+}
+.offerh3{
+    font-family: "Bold",sans-serif;
+    font-size: 32px;
+}
+.cardcontent-offer{
+    padding: 3rem 7rem;
+}
+/* responsive for tablet */
+@media (min-width: 481px) and (max-width: 767px){
+    .cardcontent-offer{
+        padding: 0rem 4rem;
+    }
+    .offer-head{
+        font-family: "Bold",sans-serif;
+        font-size: 35px;
+    }
+    .offerh3{
+       
+        font-size: 23px;
+    }
+    .text-box{
+        font-size:20px;
+    }
 }

@@ -13,7 +13,46 @@
 }
 .offer-paragraph{
     color:#0d6667;
-    
+     font-family: "Regular",sans-serif;
     text-align: justify;
-    font-size: 19px;
+    font-size:22px;
+}
+.row2{
+    color:#0d6667 ;
+    background-color: #f0f0f0;
+}
+.txt h2{
+    font-family: "Bold",sans-serif;
+    font-size:39px;
+    text-align: center;
+}
+/* responsive for tablet */
+@media (min-width: 481px) and (max-width: 767px){
+    .cardcontent{
+        padding:3rem 4rem!important;
+    }
+    .txt{
+        width: 80%;
+       
+    }
+    .row2{
+        color:#0d6667 ;
+        margin-top: 20px;
+        display: flex;
+        flex-direction:column-reverse;
+        background-color: #f0f0f0;
+    }
+    .offer-paragraph{
+        
+        font-size:20px;
+    }
+    .txt h2{
+        
+        font-size:32px;
+       
+    }
+    .txt{
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
 }

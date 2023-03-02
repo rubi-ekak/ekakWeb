@@ -5,14 +5,14 @@ const Offer = () => {
   return (
     <section>
       <div className="offer-section">
-        <div className="container-fluid cardcontent offer-box">
+        <div className="container-fluid  offer-box">
           <div className="d-flex justify-content-center align-items-center heading ">
-            <h1>SUITE OF OFFERINGS</h1>
+            <h1 className="offer-head">SUITE OF OFFERINGS</h1>
           </div>
-          <div className="row row-cols-2 ">
+          <div className="row row-cols-2 cardcontent-offer">
             <div className="col-lg-6 col-12">
               <div className="d-flex align-item-center justify-content-center p-1">
-                <h3>Sabi Lamp</h3>
+                <h3 className="offerh3">Sabi Lamp</h3>
               </div>
               <img
                 src="https://ekak.in/assets/images/sblmp.png"
@@ -30,7 +30,7 @@ const Offer = () => {
             </div>
             <div className="col-lg-6 col-12 ">
               <div className="d-flex align-item-center justify-content-center p-1">
-                <h3>Solar power bank</h3>
+                <h3 className="offerh3">Solar power bank</h3>
               </div>
               <img
                 src="https://ekak.in/assets/images/Screenshot%20(558)%20-%20Copy%20-%20Copy%20-%20Copy.png"
@@ -48,7 +48,7 @@ const Offer = () => {
             </div>
             <div className="col-lg-6 col-12">
               <div className="d-flex align-item-center justify-content-center p-1">
-                <h3>Solar Charging Hub</h3>
+                <h3 className="offerh3">Solar Charging Hub</h3>
               </div>
               <img
                 src="https://ekak.in/assets/images/1639726776136_-_Copy.png"
@@ -66,7 +66,7 @@ const Offer = () => {
             </div>
             <div className="col-lg-6 col-12">
               <div className="d-flex align-item-center justify-content-center p-1">
-                <h3>Krishi Ekka Kit</h3>
+                <h3 className="offerh3">Krishi Ekka Kit</h3>
               </div>
               <img
                 src="https://ekak.in/assets/images/maxresdefault%20(1).jpg"
