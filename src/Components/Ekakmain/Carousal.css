@@ -31,9 +31,9 @@
     border:0px;
 }
 /* responsive for tablet */
-@media (min-width: 481px) and (max-width: 767px){
+@media (min-width: 481px) and (max-width: 768px){
     .Carousel_image{
-        height:50vh;
+        height:40vh;
        
         filter:brightness(0.5)
     }
