@@ -8,7 +8,7 @@ const Ekaksharsuite = ({data}) => {
     <div>
       <Ekaksharmain/>
       <Suiteoffer data={data}/>
-     
+       <Action/>
     </div>
   )
 }

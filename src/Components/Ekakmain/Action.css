@@ -36,3 +36,22 @@
     margin-bottom: 0!important;
     font-size:2rem;
 }
+/* responsive for tablet */
+@media (min-width: 481px) and (max-width: 767px){
+    .actioncontent{
+        padding: 2rem 4rem!important;
+    }
+    .actionhead{
+        
+        font-size:1.5rem;
+    }
+    .buttonbt{
+        width:25rem;
+        padding: 1.275rem 2.275rem;
+        background-color: #f0f0f0;
+        color:#0d6667  ;
+    }
+    .btn--2{
+        margin-top: 1.5rem;
+    }
+}

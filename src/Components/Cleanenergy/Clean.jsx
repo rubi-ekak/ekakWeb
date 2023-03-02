@@ -1,5 +1,6 @@
 import React from 'react'
 import Carousal1 from '../Carousel1'
+import Action from '../Ekakmain/Action'
 import Navbar from '../Navbar'
 
 import Cardenergy from './Cardenergy'
@@ -13,6 +14,7 @@ const Clean = () => {
       <Carousal1/>
       <Cardenergy/>
       <Offer/>
+      <Action/>
     
     </>
   )

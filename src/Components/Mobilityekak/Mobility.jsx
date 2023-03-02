@@ -1,4 +1,5 @@
 import React from 'react'
+import Action from '../Ekakmain/Action'
 import Carousel2 from './Carousel2'
 import Cleanmobility from './Cleanmobility'
 import "./Mobility.css"
@@ -11,7 +12,7 @@ const Mobility = () => {
       <Carousel2/>
       <RoadSafer/>
       <Cleanmobility/>
-     
+       <Action/>
      
     </div>
   )
