@@ -45,7 +45,7 @@
     padding: 1rem;
 }
 /* responsive for tablet */
-@media (min-width: 481px) and (max-width: 767px){
+@media (min-width: 481px) and (max-width: 768px){
     .ekasharimage {
         width:55rem;
         height: auto;

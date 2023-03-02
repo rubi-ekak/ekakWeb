@@ -36,7 +36,7 @@
     background-color: #f0f0f0;
 }
 /* responsive for tablet */
-@media (min-width: 481px) and (max-width: 767px){
+@media (min-width: 481px) and (max-width: 768px){
     .suite-container{
         padding: 0 4rem 2rem!important;
     }

@@ -27,7 +27,7 @@
     text-align: center;
 }
 /* responsive for tablet */
-@media (min-width: 481px) and (max-width: 767px){
+@media (min-width: 481px) and (max-width: 768px){
     .cardcontent{
         padding:3rem 4rem!important;
     }

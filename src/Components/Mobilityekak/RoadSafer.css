@@ -22,7 +22,7 @@
     padding: 0rem 7rem 3rem;
 }
 /* responsive for tablet */
-@media (min-width: 481px) and (max-width: 767px){
+@media (min-width: 481px) and (max-width: 768px){
     .road-head{
        
         font-size:32px;
