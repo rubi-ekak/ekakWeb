@@ -29,7 +29,7 @@ const Footer = () => {
                  
                   <a href="https://www.facebook.com/EkakInn/" target="_blank" className="d-flex justify-content-evenly" >
                   <FontAwesomeIcon icon={faFacebook} className="socialicon pr-4" />
-                   <span> Facebook</span>
+                   <span className="social-- "> Facebook</span>
                   </a>
                 </li>
                 <li className="footer--">
@@ -39,19 +39,19 @@ const Footer = () => {
                       className="socialicon"
                       style={{ fontSize: "1px" }}
                     />
-                   <span> Twitter</span>
+                   <span className="social-- "> Twitter</span>
                   </a>
                 </li>
                 <li className="footer--">
                   <a href="https://medium.com/@EkakInn" target="_blank" className="d-flex justify-content-center"  >
                   <FontAwesomeIcon icon={faMedium} className="socialicon" />
-                   <span> Medium</span>
+                   <span className="social-- "> Medium</span>
                   </a>
                 </li>
                 <li className="footer--">
                   <a href="https://in.linkedin.com/company/ekakinn" target="_blank" className="d-flex justify-content-center"  >
                   <FontAwesomeIcon icon={faLinkedin} className="socialicon" />
-                   <span> Linkedin</span>
+                   <span className="social-- "> Linkedin</span>
                   </a>
                 </li>
               </ul>
