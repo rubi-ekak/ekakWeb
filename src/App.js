@@ -7,7 +7,6 @@ import Ekaksharsuite from "./Components/Ekakshar/Ekaksharsuite";
 import Footer from "./Components/Footer";
 import Mobility from "./Components/Mobilityekak/Mobility";
 import Navbar from "./Components/Navbar";
-import Action from "./Components/Ekakmain/Action";
 import Home from "./Components/Ekakmain/Home";
 import {BrowserRouter,Routes,Route} from "react-router-dom";
 import Contact from "./Components/Ekakmain/Contact";

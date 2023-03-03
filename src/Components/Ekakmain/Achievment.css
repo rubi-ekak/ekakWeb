@@ -2,7 +2,14 @@
     background-color: #afdcdf;
      color: #094d4e;
 }
-
+/* for Laptop view*/
+@media (min-width: 769px) and (max-width:1024px){
+    .innoheading{
+        font-size:1rem;
+        text-align: center;
+     
+    }
+}
 /* responsive for Mobile*/
 @media (min-width:320px) and (max-width:480px){
     .content{

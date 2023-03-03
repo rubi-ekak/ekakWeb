@@ -26,6 +26,35 @@
     font-weight: 800;
     color: #0d6667;
 }
+/* for Laptop view*/
+@media (min-width: 769px) and (max-width:1024px){
+    .svg-inline--fa.fa-leaf{
+        /* width: 4rem; */
+        height: 3rem;
+       
+    }
+    .imp-sub-head{
+        font-size:18px;
+       
+        color: #0d6667;
+      text-align: center;
+       
+    }
+    .heading_impact {
+        
+        padding: 3rem 0rem;
+    }
+    .impact-effect{
+     
+        font-size:16px;
+    }
+    .changesdata{
+        font-size:20px;
+    }
+   
+}
+
+
 /* responsive for tablet */
 @media (min-width: 481px) and (max-width: 768px){
     .svg-inline--fa.fa-leaf{

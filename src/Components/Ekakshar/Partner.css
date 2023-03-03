@@ -42,6 +42,45 @@
 .partener-Image:hover{
     transform:scale(1.2);
 }
+/* for Laptop view*/
+@media (min-width: 769px) and (max-width:1024px){
+    .heading_partner{
+        
+           padding: 2rem 0rem;
+       }
+       .content-partner{
+        padding:0 4rem 2.5rem;
+    }
+    #image1{
+        width: 12rem!important;
+    }
+    #image2{
+        width:12rem!important;
+    }
+    #image3{
+        width: 12rem!important;
+    }
+    #image4{
+        width: 9rem!important;
+    }
+    #image5{
+        width: 9rem!important;
+    }
+    #image6{
+        width: 9rem!important;
+    }
+    #image7{
+        width: 9rem!important;
+    }
+    #image8{
+        width: 9rem!important;
+    }
+    #image9{
+        width: 9rem!important;
+    }
+}
+
+
 /* responsive for tablet */
 @media (min-width: 481px) and (max-width: 768px){
     .divbox{

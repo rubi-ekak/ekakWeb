@@ -47,6 +47,30 @@
 .aboutimage {
     width:31rem;
 }
+
+/* for Laptop view*/
+@media (min-width: 769px) and (max-width:1024px) {
+    .card-title{
+        padding:0rem 0rem;
+        color:#0d6667;
+        font-family: "Bold",sans-serif!important;
+        font-size:35px;
+    }
+    .card-text{
+        font-size: 15px;
+        color:#0d6667;
+        font-family: "Regular",sans-serif!important;
+        margin-bottom: 0!important;
+        text-align: justify;
+        padding: 1.25rem 3rem;
+    }
+    .about-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
 /* responsive for tablet */
 @media (min-width: 481px) and (max-width: 768px) {
     .box{

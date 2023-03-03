@@ -80,11 +80,46 @@
 .accordion-para{
   font-family: "Regular",sans-serif;
   font-size: 22px;
+  color: #0d6667;
 }
 .accordion-padding{
   padding-right: 12px;
   padding-left: 12px;
 }
+/* for Laptop view*/
+@media (min-width: 769px) and (max-width:1024px) {
+  .subh2{
+  
+    font-size:30px;
+  }
+  .subh5{
+    color: #0d6667;
+    font-family: "Bold",sans-serif!important;
+    font-size:22px!important;
+  }
+  .heading{
+   
+    font-size: 35px;
+  }
+  .succtext{
+    font-size:18px;
+  }
+  #buttonaccordion{
+    width:20%!important;
+    font-size:20px;
+  }
+  .accordionh5{
+  
+    font-size: 20px;
+  }
+  .accordion-para{
+   
+    font-size:18px;
+  }
+
+}
+
+
 @media (min-width: 481px) and (max-width: 768px){
   .sucdiv{
     padding-left: 8px;

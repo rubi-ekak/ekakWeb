@@ -91,7 +91,21 @@ color:#157c7e ;
 .anchrtext:hover{
     color:#157c7e ;
 }
-
+/* for Laptop view*/
+@media (min-width: 769px) and (max-width:1024px){
+    .secfooter{
+        padding: 1.2rem 0.8rem;
+        font-size:1rem;
+    }
+    .ekak{
+        width: 200px;
+    }
+    .socialicon{
+        color: #fff!important;
+        height:1rem;
+        width:1rem;
+    }
+}
 /* responsive for tablet */
 @media (min-width: 481px) and (max-width: 768px){
     .ekak{

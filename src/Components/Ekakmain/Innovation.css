@@ -38,6 +38,27 @@
     color:#094d4e ; 
     font-size:1.4rem;
 }
+/* for Laptop view*/
+@media (min-width: 769px) and (max-width:1024px){
+    .innoheading{
+        
+        font-size:38px;
+    } 
+    .innosubhead1{
+        
+        font-size:1.2rem;
+   }
+   .innosubhead2{
+      
+       font-size:1rem;
+   }
+   .unorder-list{
+    font-family: "Regular",sans-serif;
+    color:#094d4e ; 
+    font-size:1.04rem;
+}
+
+}
 /* responsive for tablet */
 @media (min-width: 481px) and (max-width: 768px){
     .innoheading{

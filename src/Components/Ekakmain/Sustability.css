@@ -28,6 +28,26 @@
    color: #0d6667;
    font-size: 48px;
 }
+/* for Laptop view*/
+@media (min-width: 769px) and (max-width:1024px){
+    .susheading{
+      
+        font-size:38px;
+     }
+     .imgset{
+        width:6rem;
+        height:6rem;
+        margin-top: 12.8px;
+        margin-left:12.8px ;
+        margin-right: 12.8px;
+    }
+    .mt{
+        margin:2px 0px;
+      }
+
+}
+
+
 /* responsive for tablet */
 @media (min-width: 481px) and (max-width: 768px){
     .heading_sustability{

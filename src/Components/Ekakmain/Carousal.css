@@ -30,6 +30,35 @@
 .card{
     border:0px;
 }
+
+/* for Laptop view*/
+@media (min-width: 769px) and (max-width:1024px){
+    .Carousel_image{
+        height:38vh;
+       
+        filter:brightness(0.5)
+    }
+    .caption_container{
+     
+        top: 95px;
+        
+       
+        
+      }
+      .small_heading{
+        padding: 0px 0px 10px;
+        font-size:19px!important;
+    
+    }
+    .middle_heading{
+        margin:  0px 0px 10px;
+        padding: 10px 0px;
+        font-size:40px!important;
+       
+    
+    }
+
+}
 /* responsive for tablet */
 @media (min-width: 481px) and (max-width: 768px){
     .Carousel_image{

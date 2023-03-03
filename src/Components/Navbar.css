@@ -46,6 +46,34 @@ a{
 .active:active{
     color:#0d6667 ;
 }
+
+/* for Laptop view*/
+@media (min-width: 769px) and (max-width:1024px) {
+    .cont{
+        padding: 0rem 2.8rem;
+      
+        line-height:normal;
+    }
+    .navbar{
+        padding-top: 0;
+     
+    }
+    .logo{
+        width: 205px;
+        height: auto;
+    }
+    .navbar-toggler{
+        margin-right: 2rem;
+    }
+    .navbar.active{
+        background-image: linear-gradient(to bottom right,#0d6667,#034c63);
+    height:3.9rem;
+    }
+
+}
+
+
+
 /* for Tablet responsive navbaar */
 @media (min-width: 481px) and (max-width: 768px) {
     .cont{
@@ -53,7 +81,7 @@ a{
     }
     .navbar{
         padding-top: 0;
-    }
+    } 
     
     .logo{
         width: 200px;

@@ -36,6 +36,14 @@
 .heading-solution{
   font-family: "Bold",sans-serif;
 }
+
+/* for Laptop view*/
+@media (min-width: 769px) and (max-width:1024px){
+  .tag {
+  
+    font-size: 28px;
+  }
+}
 /* responsive for Mobile*/
 @media (min-width:320px) and (max-width:480px){
   .heading-solution{

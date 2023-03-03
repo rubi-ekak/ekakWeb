@@ -20,7 +20,7 @@ const Impact = () => {
         <div className="col-lg-4 col-md-4 col-sm-12 text-center ">
        <span className="m-4"><FontAwesomeIcon icon={faLeaf} className="svg-inline--fa fa-leaf" /></span> 
         
-            <h4>
+            <h4 className="changesdata">
             107000+ litres per year
             </h4>
             <h6  className="impact-effect">
@@ -31,7 +31,7 @@ const Impact = () => {
         <div className="col-lg-4 col-md-4 col-sm-12 text-center ">
         <span className="m-4"><FontAwesomeIcon icon={faFireFlameCurved} className="svg-inline--fa fa-leaf"/></span>
         
-            <h4>
+            <h4 className="changesdata">
             118000+ USD per year
             </h4>
             <h6 className="impact-effect">
@@ -41,7 +41,7 @@ const Impact = () => {
         <div className="col-lg-4 col-md-4 col-sm-12 text-center ">
         <span className="m-4"><FontAwesomeIcon icon={faMoneyBill1} className="svg-inline--fa fa-leaf "/></span>
         
-            <h4>
+            <h4 className="changesdata">
             45360000+ kgs per year
             </h4>
             <h6 className="impact-effect">
