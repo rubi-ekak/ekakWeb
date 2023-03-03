@@ -79,4 +79,26 @@ span{
     width:17px;
     padding-right: 5px
 }
-
+/* responsive for Mobile*/
+@media (min-width:320px) and (max-width:480px){
+    .footer{
+       
+        padding: 4px;
+        
+        font-size:  1.2rem !important;
+    }
+    .secfooter{
+        padding: 0.8rem 1rem;
+    }
+    .foote_bottom_ul{
+        margin-top: 0px;
+    }
+    #copyright{
+        width:20px;
+        padding-right: 5px
+    }
+    .ekak{
+        width: 220px;
+        height: auto;
+    }
+}

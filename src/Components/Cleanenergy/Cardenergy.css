@@ -56,3 +56,33 @@
         padding-bottom: 48px;
     }
 }
+/* responsive for Mobile*/
+@media (min-width:320px) and (max-width:480px){
+    .cardcontent{
+        padding:2rem 3rem!important;
+    }
+    .txt{
+        width:70%;
+       
+    }
+    .row2{
+        color:#0d6667 ;
+        margin-top: 15px;
+        display: flex;
+        flex-direction:column-reverse;
+        background-color: #f0f0f0;
+    }
+    .txt h2{
+        
+        font-size:22px;
+       
+    }
+    .offer-paragraph{
+        
+        font-size:15px;
+    }
+    .txt{
+       padding-top: 12px;
+        
+    }
+}

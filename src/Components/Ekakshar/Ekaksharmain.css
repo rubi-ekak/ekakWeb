@@ -77,3 +77,35 @@
         font-family: "Bold",sans-serif;
     }
 }
+/* responsive for Mobile*/
+@media (min-width:320px) and (max-width:480px){
+    .ekasharimage {
+        width:25rem;
+        height: auto;
+      }
+      .context{
+      
+        top: 4.5rem;
+        left: 2rem;
+        width:85%;
+        color: #ffffff;
+    }
+    .ekak-sub-heading1{
+        font-size: 1.2rem;
+       
+        padding:0rem;
+    }
+    .ekak-sub-heading{
+        padding:4px;
+        font-size:1rem;
+       
+        margin-bottom: 8px;
+    }
+    .orderbutton{
+        margin: 0;
+        padding: 6px;
+       
+        font-size: 8px;
+        font-family: "Bold",sans-serif;
+    }
+}

@@ -37,7 +37,7 @@
     font-size:2rem;
 }
 /* responsive for tablet */
-@media (min-width: 481px) and (max-width: 767px){
+@media (min-width: 481px) and (max-width: 768px){
     .actioncontent{
         padding: 2rem 4rem!important;
     }
@@ -53,5 +53,23 @@
     }
     .btn--2{
         margin-top: 1.5rem;
+    }
+}
+/* responsive for Mobile*/
+@media (min-width:320px) and (max-width:480px){
+    .actioncontent{
+        padding: 2rem 3rem!important;
+    }
+    .actionhead{
+        
+        font-size:1.4rem;
+    }
+    .buttonbt{
+        width:20rem;
+        padding: 1rem 1.5rem;
+      
+    }
+    .btn--2{
+        margin-top: 1rem;
     }
 }

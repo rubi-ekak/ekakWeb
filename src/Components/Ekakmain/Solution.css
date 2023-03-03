@@ -33,6 +33,9 @@
   margin-top: 0 !important;
   margin-bottom: 0 !important;
 }
+.heading-solution{
+  font-family: "Bold",sans-serif;
+}
 /* responsive for Mobile*/
 @media (min-width:320px) and (max-width:480px){
   .heading-solution{

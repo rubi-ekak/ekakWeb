@@ -44,6 +44,9 @@
 .div1{
     width: 100%;
 }
+.aboutimage {
+    width:31rem;
+}
 /* responsive for tablet */
 @media (min-width: 481px) and (max-width: 768px) {
     .box{

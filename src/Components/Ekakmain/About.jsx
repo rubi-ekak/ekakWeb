@@ -6,7 +6,7 @@ const About = () => {
     <section className="about_us">
       <div className="container-fluid contain">
         <div>
-          <div className="row">
+          <div className="row d-flex align-items-center justify-content-center">
             <div className="col-lg-7 col-md-12 col-sm-12 col-12">
               <div className=" text-section">
                 <h1 className="card-title text-center">ABOUT US</h1>

@@ -37,3 +37,19 @@
         
     }
 }
+/* responsive for Mobile*/
+@media (min-width:320px) and (max-width:480px){
+    .cardcontent-road {
+      padding: 0rem 2.8rem 1.77rem;
+  }
+  .road-header{
+    padding: 1.8rem 1.5rem; 
+  }
+  .road-head{
+       
+    font-size:28px;
+
+} .offer-paragraph{
+    font-size: 18px;
+}
+  }

@@ -51,3 +51,33 @@
         font-size:20px;
     }
 }
+/* responsive for Mobile*/
+@media (min-width:320px) and (max-width:480px){
+    .cardcontent-offer{
+        padding: 0rem 2rem;
+    }
+    .offer-head{
+        font-family: "Bold",sans-serif;
+        font-size: 28px;
+    }
+    .offerh3{
+       
+        font-size:23px;
+    }
+    .text-box{
+        font-size:18px;
+    }
+    .pic1{
+        height:auto;
+    }
+    .pic2{
+        height:auto;
+    }
+    .pic3{
+        height:auto;
+    }
+    .pic4{
+        height:auto;
+    }
+   
+}

@@ -53,3 +53,26 @@
     }
     
 }
+/* responsive for Mobile*/
+@media (min-width:320px) and (max-width:480px){
+    .suite-container{
+        padding: 0 2.2rem 1.5rem!important;
+    }
+    .suite-sub-heading{
+      
+        font-size:28px;
+      }
+      .suite-heading{
+        
+        padding:1.77rem 0rem;
+      
+       
+    }
+    .offer--head{
+      
+        font-size:23px;
+    }
+    .suite-4{
+        padding-bottom: 0rem!important;
+    }
+}
