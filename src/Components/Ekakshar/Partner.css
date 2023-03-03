@@ -75,7 +75,7 @@
         width: 9rem!important;
     }
     .content-partner{
-        padding: 0 4rem 3rem;
+        padding: 0 2.5rem 2rem;
     }
     .heading_partner{
         color:   #0d6667;
@@ -134,5 +134,7 @@
            font-size: 28px!important;
        }
        
-       
+       .part-head {
+           font-size: 15px;
+       }
 }

@@ -94,11 +94,14 @@ span{
         margin-top: 0px;
     }
     #copyright{
-        width:20px;
+        width:18px;
         padding-right: 5px
     }
     .ekak{
         width: 220px;
         height: auto;
+    }
+    span{
+        
     }
 }

@@ -4,7 +4,7 @@ import './Contact.css'
 const Contact = () => {
   return (
     <div>
-       <span className="btn-launch" type="button">
+       <span className="btn-launch span-contact" type="button">
            Contact Us
        </span>
     </div>

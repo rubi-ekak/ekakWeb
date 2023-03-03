@@ -13,7 +13,7 @@
     z-index: 1111;
 
 }
-span{
+.span-contact{
  display: flex;
  align-items: center;
  justify-content: center;

@@ -6,7 +6,7 @@ const Partener = () => {
     <section className="partner">
       <div className="heading_partner">
         <h1 className="innoheading">PARTNERS</h1> 
-        <h4>Our outstanding partners and supporters.</h4>
+        <h4 className="part-head">Our outstanding partners and supporters.</h4>
       </div>
       <div className="container-fluid content-partner text-center"> 
           <div className="row">

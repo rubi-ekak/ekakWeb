@@ -54,7 +54,7 @@
 @media (min-width:320px) and (max-width:480px){
    
     .sustability_container{
-        padding:0 2.8rem 1.755rem;
+        padding:0 2.5rem 1.755rem;
        margin-top: 6px;
     
     }
@@ -71,8 +71,13 @@
          font-size: 18px;
      }
      .imgset{
+         width:7rem;
+         height:7rem;
          margin-top: 12.8px;
          margin-left:12.8px ;
          margin-right: 12.8px;
+     }
+     .mt{
+         margin:0px 0px;
      }
 }
