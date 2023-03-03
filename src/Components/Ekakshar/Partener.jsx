@@ -40,17 +40,17 @@ const Partener = () => {
                       <img src="https://ekak.in/assets/images/download.png" id="image6"></img>
                   </a>
               </div>
-              <div className="col-lg-4 col-md-4 col-sm-4 col-6  pt-5 partener-Image ">
+              <div className="col-lg-4 col-md-4 col-sm-4 col-6  pt-5 partener-Image partset">
                   <a href="https://www.southampton.ac.uk/silab/index.page" target="_blank">
                       <img src="https://ekak.in/assets/images/Social_Impact_Lab.jpg_SIA_JPG_fit_to_width_MEDIUM-removebg-preview_160x100.png" id="image7"></img>
                   </a>
               </div>
-              <div className="col-lg-4 col-md-4 col-sm-4 col-6  pt-5 partener-Image ">
+              <div className="col-lg-4 col-md-4 col-sm-4 col-6  pt-5 partener-Image partset ">
                   <a href="https://claimingourspace.org/" target="_blank">
                       <img src="https://ekak.in/assets/images/Logo-Coalition_1_160x144.png" id="image8"></img>
                   </a>
               </div>
-              <div className="col-lg-4 col-md-4 col-sm-4  col-12 pt-5 partener-Image   lastdiv">
+              <div className="col-lg-4 col-md-4 col-sm-4  col-12 pt-5 partener-Image   lastdiv partset">
                   <a href="http://mleko.in/" target="_blank">
                       <img src="https://ekak.in/assets/images/images.png" id="image9"></img>
                   </a>

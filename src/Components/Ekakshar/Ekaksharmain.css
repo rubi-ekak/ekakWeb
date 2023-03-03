@@ -80,7 +80,7 @@
 /* responsive for Mobile*/
 @media (min-width:320px) and (max-width:480px){
     .ekasharimage {
-        width:25rem;
+        width:28rem;
         height: auto;
       }
       .context{
@@ -103,9 +103,9 @@
     }
     .orderbutton{
         margin: 0;
-        padding: 6px;
+        padding: 5px;
        
-        font-size: 8px;
+        font-size: 7px;
         font-family: "Bold",sans-serif;
     }
 }

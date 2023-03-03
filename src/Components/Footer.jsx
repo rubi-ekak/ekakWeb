@@ -19,7 +19,7 @@ const Footer = () => {
           <div className="col-lg-4 col-md-4 col-6 d-flex justify-content-center align-items-center  ">
             <div className="social-media ">
               <label className="social">
-                <b>FOLLOW US</b>
+              <span>  <b>FOLLOW US</b></span>
               </label>
 
 
@@ -27,13 +27,13 @@ const Footer = () => {
               <ul className='foote_bottom_ul'>
                 <li className="footer--  ">
                  
-                  <a href="https://www.facebook.com/EkakInn/" target="_blank" className="d-flex justify-content-evenly" >
+                  <a href="https://www.facebook.com/EkakInn/" target="_blank" className="d-flex justify-content-evenly anchrtext" >
                   <FontAwesomeIcon icon={faFacebook} className="socialicon pr-4" />
                    <span className="social-- "> Facebook</span>
                   </a>
                 </li>
                 <li className="footer--">
-                  <a href="https://twitter.com/ekak1nn" target="_blank"  className="d-flex justify-content-center" >
+                  <a href="https://twitter.com/ekak1nn" target="_blank"  className="d-flex justify-content-center anchrtext" >
                   <FontAwesomeIcon
                       icon={faTwitter}
                       className="socialicon"
@@ -43,15 +43,15 @@ const Footer = () => {
                   </a>
                 </li>
                 <li className="footer--">
-                  <a href="https://medium.com/@EkakInn" target="_blank" className="d-flex justify-content-center"  >
+                  <a href="https://medium.com/@EkakInn" target="_blank" className="d-flex justify-content-center anchrtext"  >
                   <FontAwesomeIcon icon={faMedium} className="socialicon" />
                    <span className="social-- "> Medium</span>
                   </a>
                 </li>
                 <li className="footer--">
-                  <a href="https://in.linkedin.com/company/ekakinn" target="_blank" className="d-flex justify-content-center"  >
+                  <a href="https://in.linkedin.com/company/ekakinn" target="_blank" className="d-flex justify-content-center anchrtext "  >
                   <FontAwesomeIcon icon={faLinkedin} className="socialicon" />
-                   <span className="social-- "> Linkedin</span>
+                   <span className="social--"> Linkedin</span>
                   </a>
                 </li>
               </ul>
