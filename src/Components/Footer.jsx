@@ -88,7 +88,7 @@ const Footer = () => {
           </div>
           <div className="col-lg-4 col-md-4 col-12 d-flex align-items-center justify-content-center ml-4">
             <div className="social-media ">
-              <NavLink to="/">
+              <NavLink path="/">
                 <img
                   src="https://ekak.in/assets/images/Ekak-12.png"
                   className="ekak"
