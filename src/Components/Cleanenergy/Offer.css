@@ -34,6 +34,43 @@
 .cardcontent-offer{
     padding: 3rem 7rem;
 }
+/* for Laptop view*/
+@media (min-width: 769px) and (max-width:1024px){
+
+    .cardcontent-offer{
+        padding: 0rem 7rem 3rem;
+    }
+
+    .pic1{
+        height:auto;
+        width: 100%;
+    }
+    .pic2{
+        height:auto;
+        width: 100%;
+    }
+    .pic3{
+        height:auto;
+        width: 100%;
+    }
+    .pic4{
+        height:auto;
+        width: 100%;
+    }
+    .text-box{
+        font-size:18px;
+    }
+    .offerh3{
+       
+        font-size: 25px;
+    }
+    .offer-head{
+        font-family: "Bold",sans-serif;
+        font-size: 32px;
+    }
+}
+
+
 /* responsive for tablet */
 @media (min-width: 481px) and (max-width: 768px){
     .cardcontent-offer{

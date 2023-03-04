@@ -55,6 +55,26 @@
         margin-top: 1.5rem;
     }
 }
+/* for Laptop view*/
+@media (min-width: 769px) and (max-width:1024px){
+    .buttonbt{
+        width:25rem;
+        padding: 1rem 1.5rem;
+      
+    }
+    .btn--2{
+        margin-top: 1rem;
+    }
+    .actionhead{
+        
+        font-size:1.7rem;
+    }
+    .actioncontent{
+        padding: 2rem 3rem!important;
+    }
+}
+
+
 /* responsive for Mobile*/
 @media (min-width:320px) and (max-width:480px){
     .actioncontent{

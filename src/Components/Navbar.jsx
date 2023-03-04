@@ -19,8 +19,8 @@ const Navbar = () => {
       <nav
         class={
           navshow
-            ? "navbar navbar-expand-lg navbar-light fixed-top active"
-            : "navbar navbar-expand-lg navbar-light fixed-top"
+            ? "navbar navbar-expand-lg navbar-dark fixed-top active"
+            : "navbar navbar-expand-lg navbar-dark fixed-top"
         }
       >
         <div class="container-fluid cont ">
@@ -30,7 +30,7 @@ const Navbar = () => {
           </NavLink>
 
           <button
-            class="navbar-toggler"
+            class="navbar-toggler custom-navbar"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"

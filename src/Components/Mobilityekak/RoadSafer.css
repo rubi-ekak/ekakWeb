@@ -21,6 +21,19 @@
 .cardcontent-road{
     padding: 0rem 7rem 3rem;
 }
+/* for Laptop view*/
+@media (min-width: 769px) and (max-width:1024px) {
+    .road-head{
+       
+        font-size:36px;
+    
+    }
+    .offer-paragraph{
+        font-size: 20px;
+    }
+}
+
+
 /* responsive for tablet */
 @media (min-width: 481px) and (max-width: 768px){
     .road-head{
@@ -37,6 +50,9 @@
         
     }
 }
+
+
+
 /* responsive for Mobile*/
 @media (min-width:320px) and (max-width:480px){
     .cardcontent-road {

@@ -26,6 +26,32 @@
     font-size:39px;
     text-align: center;
 }
+/* for Laptop view*/
+@media (min-width: 769px) and (max-width:1024px){
+    .cardcontent{
+        padding:3rem 7rem!important;
+    }
+    .txt{
+        width: 100%;
+        padding: 3rem;
+       
+    }
+
+    .row2{
+        color:#0d6667 ;
+        margin-top: 20px;
+        display: flex;
+        flex-direction:column-reverse;
+        background-color: #f0f0f0;
+    }
+    .txt h2{
+        
+        font-size:28px;
+       
+    }
+}
+
+
 /* responsive for tablet */
 @media (min-width: 481px) and (max-width: 768px){
     .cardcontent{

@@ -34,20 +34,21 @@
 /* for Laptop view*/
 @media (min-width: 769px) and (max-width:1024px){
     .Carousel_image{
-        height:38vh;
+        height:50vh;
        
         filter:brightness(0.5)
     }
     .caption_container{
      
-        top: 95px;
+        top:100px;
         
        
         
       }
       .small_heading{
         padding: 0px 0px 10px;
-        font-size:19px!important;
+        font-size:22px!important;
+        line-height: normal;
     
     }
     .middle_heading{

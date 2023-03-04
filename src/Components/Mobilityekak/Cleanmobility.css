@@ -67,6 +67,42 @@
   font-size: 35px;
   text-align: center;
 }
+
+/* for Laptop view*/
+@media (min-width: 769px) and (max-width:1024px) {
+  .heading_cleanmobility {
+   
+    padding: 3rem 0rem;
+}
+.clean-heading{
+  font-family: "Bold",sans-serif;
+  font-size:36px;
+  text-align: center;
+}
+.clean-sub-heading{
+ 
+  font-size: 28px;
+ 
+}
+.cleanpara{
+  font-family: "Regular",sans-serif!important;
+  color:#0d6667  ;
+  text-align: justify;
+  padding: 0 0.2rem;
+  font-size: 14px;
+}
+.imagesection {
+  width: auto;
+  height:auto;
+}
+.borderdiv {
+  border:3px  solid #0d6667;
+ border-left: 0px;
+ border-right: 0px;
+}
+}
+
+
 /* responsive for tablet */
 @media (min-width: 481px) and (max-width: 768px){
   .main-head {
