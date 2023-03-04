@@ -24,7 +24,7 @@
 .heading{
     padding-top: 48px;
     padding-bottom: 48px;
-    color:#0d6667
+    color:#0d6667;
 }
 .rowele{
     flex-wrap: nowrap;
@@ -47,6 +47,11 @@
 .aboutimage {
     width:31rem;
 }
+.accordion-button:not(.collapsed) {
+    color:#0d6667; 
+     background-color: #f0f0f0;
+} 
+
 
 /* for Laptop view*/
 @media (min-width: 769px) and (max-width:1024px) {
