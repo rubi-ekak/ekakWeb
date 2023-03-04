@@ -35,6 +35,20 @@
 .suite-offer{
     background-color: #f0f0f0;
 }
+/* for Laptop view*/
+@media (min-width: 769px) and (max-width:1024px){
+    .offer--head{
+      
+        font-size:27px;
+    }
+    .suite-sub-heading{
+      
+        font-size:37px;
+      }
+}
+
+
+
 /* responsive for tablet */
 @media (min-width: 481px) and (max-width: 768px){
     .suite-container{
